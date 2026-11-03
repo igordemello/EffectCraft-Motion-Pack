@@ -53,7 +53,3 @@ O build exige `Documentation/native_effects.json`, `Documentation/catalog.json` 
 `Plugin/Tests/integration_report.json` registra sucesso em testes headless: filtros e busca, timer de prévia e fechamento do painel, instalação duplicada, desinstalação com preservação de arquivos alterados e 98 callbacks reais de **Adicionar à timeline** em 150% da duração e 75% da intensidade. Também foram verificadas rejeições por seleção ausente, duração inválida e falta de espaço na composição. A descoberta do painel foi confirmada em uma instalação isolada do aplicativo; as capturas de encaixe estão em `Plugin/Tests/`.
 
 O relatório `Plugin/Tests/desktop_report.json` também registra a descoberta e abertura do painel nativo, avanço da prévia, renderização antes/durante/depois de uma sobreposição, precomp de texto e Undo na interface real. A instância de teste usou a GPU AMD Radeon RX 7600 (Vulkan), em perfil isolado. Foram amostradas três receitas nessa instância, não toda a biblioteca em GPU; não houve certificação com filmagem comercial nem exportação de todos os frames. As prévias são de referência e não garantem o resultado em toda composição.
-
-
-
-
