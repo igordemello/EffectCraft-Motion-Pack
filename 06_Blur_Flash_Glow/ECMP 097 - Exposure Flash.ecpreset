@@ -1,0 +1,483 @@
+{
+  "effectcraftAnimationPreset": 2,
+  "name": "ECMP 097 - Exposure Flash",
+  "properties": [],
+  "effects": [
+    {
+      "children": [
+        {
+          "hold_only": true,
+          "match": "channels",
+          "name": "Channels",
+          "node": "Prop",
+          "shown_dims": 0,
+          "spatial": false,
+          "static_only": false,
+          "three_d_only": false,
+          "two_d_only": false,
+          "ui": {
+            "kind": "Popup",
+            "options": [
+              "Master",
+              "Individual Channels"
+            ]
+          },
+          "uid": 64,
+          "value": {
+            "t": "Enum",
+            "v": 0
+          }
+        },
+        {
+          "children": [
+            {
+              "hold_only": false,
+              "match": "exposure",
+              "name": "Exposure",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 2,
+                "kind": "Slider",
+                "max": 100.0,
+                "min": -100.0,
+                "slider_max": 4.0,
+                "slider_min": -4.0
+              },
+              "uid": 65,
+              "value": {
+                "t": "Scalar",
+                "v": 0
+              },
+              "keys": [
+                {
+                  "time": 0,
+                  "value": {
+                    "t": "Scalar",
+                    "v": 0
+                  },
+                  "in_interp": "Bezier",
+                  "out_interp": "Bezier",
+                  "in_ease": [
+                    {
+                      "speed": 0.0,
+                      "influence": 0.3333333333333333
+                    }
+                  ],
+                  "out_ease": [
+                    {
+                      "speed": 0.0,
+                      "influence": 0.3333333333333333
+                    }
+                  ]
+                },
+                {
+                  "time": 25401600000,
+                  "value": {
+                    "t": "Scalar",
+                    "v": 2
+                  },
+                  "in_interp": "Bezier",
+                  "out_interp": "Bezier",
+                  "in_ease": [
+                    {
+                      "speed": 0.0,
+                      "influence": 0.3333333333333333
+                    }
+                  ],
+                  "out_ease": [
+                    {
+                      "speed": 0.0,
+                      "influence": 0.3333333333333333
+                    }
+                  ]
+                },
+                {
+                  "time": 58423680000,
+                  "value": {
+                    "t": "Scalar",
+                    "v": -0.4
+                  },
+                  "in_interp": "Bezier",
+                  "out_interp": "Bezier",
+                  "in_ease": [
+                    {
+                      "speed": 0.0,
+                      "influence": 0.3333333333333333
+                    }
+                  ],
+                  "out_ease": [
+                    {
+                      "speed": 0.0,
+                      "influence": 0.3333333333333333
+                    }
+                  ]
+                },
+                {
+                  "time": 127008000000,
+                  "value": {
+                    "t": "Scalar",
+                    "v": 0
+                  },
+                  "in_interp": "Bezier",
+                  "out_interp": "Bezier",
+                  "in_ease": [
+                    {
+                      "speed": 0.0,
+                      "influence": 0.3333333333333333
+                    }
+                  ],
+                  "out_ease": [
+                    {
+                      "speed": 0.0,
+                      "influence": 0.3333333333333333
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "hold_only": false,
+              "match": "offset",
+              "name": "Offset",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 4,
+                "kind": "Slider",
+                "max": 2.0,
+                "min": -2.0,
+                "slider_max": 0.5,
+                "slider_min": -0.5
+              },
+              "uid": 67,
+              "value": {
+                "t": "Scalar",
+                "v": 0.0
+              }
+            },
+            {
+              "hold_only": false,
+              "match": "gamma",
+              "name": "Gamma Correction",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 2,
+                "kind": "Slider",
+                "max": 10.0,
+                "min": 0.1,
+                "slider_max": 10.0,
+                "slider_min": 0.1
+              },
+              "uid": 68,
+              "value": {
+                "t": "Scalar",
+                "v": 1.0
+              }
+            }
+          ],
+          "enabled": true,
+          "kind": {
+            "kind": "Plain"
+          },
+          "match": "master",
+          "name": "Master",
+          "node": "Group",
+          "uid": 66
+        },
+        {
+          "children": [
+            {
+              "hold_only": false,
+              "match": "redExposure",
+              "name": "Exposure",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 2,
+                "kind": "Slider",
+                "max": 100.0,
+                "min": -100.0,
+                "slider_max": 4.0,
+                "slider_min": -4.0
+              },
+              "uid": 69,
+              "value": {
+                "t": "Scalar",
+                "v": 0.0
+              }
+            },
+            {
+              "hold_only": false,
+              "match": "redOffset",
+              "name": "Offset",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 4,
+                "kind": "Slider",
+                "max": 2.0,
+                "min": -2.0,
+                "slider_max": 0.5,
+                "slider_min": -0.5
+              },
+              "uid": 71,
+              "value": {
+                "t": "Scalar",
+                "v": 0.0
+              }
+            },
+            {
+              "hold_only": false,
+              "match": "redGamma",
+              "name": "Gamma Correction",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 2,
+                "kind": "Slider",
+                "max": 10.0,
+                "min": 0.1,
+                "slider_max": 10.0,
+                "slider_min": 0.1
+              },
+              "uid": 72,
+              "value": {
+                "t": "Scalar",
+                "v": 1.0
+              }
+            }
+          ],
+          "enabled": true,
+          "kind": {
+            "kind": "Plain"
+          },
+          "match": "red",
+          "name": "Red",
+          "node": "Group",
+          "uid": 70
+        },
+        {
+          "children": [
+            {
+              "hold_only": false,
+              "match": "greenExposure",
+              "name": "Exposure",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 2,
+                "kind": "Slider",
+                "max": 100.0,
+                "min": -100.0,
+                "slider_max": 4.0,
+                "slider_min": -4.0
+              },
+              "uid": 73,
+              "value": {
+                "t": "Scalar",
+                "v": 0.0
+              }
+            },
+            {
+              "hold_only": false,
+              "match": "greenOffset",
+              "name": "Offset",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 4,
+                "kind": "Slider",
+                "max": 2.0,
+                "min": -2.0,
+                "slider_max": 0.5,
+                "slider_min": -0.5
+              },
+              "uid": 75,
+              "value": {
+                "t": "Scalar",
+                "v": 0.0
+              }
+            },
+            {
+              "hold_only": false,
+              "match": "greenGamma",
+              "name": "Gamma Correction",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 2,
+                "kind": "Slider",
+                "max": 10.0,
+                "min": 0.1,
+                "slider_max": 10.0,
+                "slider_min": 0.1
+              },
+              "uid": 76,
+              "value": {
+                "t": "Scalar",
+                "v": 1.0
+              }
+            }
+          ],
+          "enabled": true,
+          "kind": {
+            "kind": "Plain"
+          },
+          "match": "green",
+          "name": "Green",
+          "node": "Group",
+          "uid": 74
+        },
+        {
+          "children": [
+            {
+              "hold_only": false,
+              "match": "blueExposure",
+              "name": "Exposure",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 2,
+                "kind": "Slider",
+                "max": 100.0,
+                "min": -100.0,
+                "slider_max": 4.0,
+                "slider_min": -4.0
+              },
+              "uid": 77,
+              "value": {
+                "t": "Scalar",
+                "v": 0.0
+              }
+            },
+            {
+              "hold_only": false,
+              "match": "blueOffset",
+              "name": "Offset",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 4,
+                "kind": "Slider",
+                "max": 2.0,
+                "min": -2.0,
+                "slider_max": 0.5,
+                "slider_min": -0.5
+              },
+              "uid": 79,
+              "value": {
+                "t": "Scalar",
+                "v": 0.0
+              }
+            },
+            {
+              "hold_only": false,
+              "match": "blueGamma",
+              "name": "Gamma Correction",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 2,
+                "kind": "Slider",
+                "max": 10.0,
+                "min": 0.1,
+                "slider_max": 10.0,
+                "slider_min": 0.1
+              },
+              "uid": 80,
+              "value": {
+                "t": "Scalar",
+                "v": 1.0
+              }
+            }
+          ],
+          "enabled": true,
+          "kind": {
+            "kind": "Plain"
+          },
+          "match": "blue",
+          "name": "Blue",
+          "node": "Group",
+          "uid": 78
+        },
+        {
+          "hold_only": true,
+          "match": "bypassLinearLight",
+          "name": "Bypass Linear Light Conversion",
+          "node": "Prop",
+          "shown_dims": 0,
+          "spatial": false,
+          "static_only": false,
+          "three_d_only": false,
+          "two_d_only": false,
+          "ui": {
+            "kind": "Checkbox"
+          },
+          "uid": 81,
+          "value": {
+            "t": "Bool",
+            "v": false
+          }
+        }
+      ],
+      "enabled": true,
+      "kind": {
+        "effect": "ec.color.exposure",
+        "kind": "Effect"
+      },
+      "match": "ec.color.exposure",
+      "name": "Exposure",
+      "uid": 63
+    }
+  ]
+}

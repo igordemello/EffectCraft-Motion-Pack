@@ -1,0 +1,7304 @@
+{
+  "passed": true,
+  "engine_version": "0.21.0",
+  "renderer": "CPU/headless",
+  "upstream_commit": "7870b5916ae0749d497d880989683bf2946d6c8b",
+  "elapsed_seconds": 26.8,
+  "loaded_from_files": true,
+  "results": [
+    {
+      "id": 1,
+      "name": "Smooth Zoom In",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            155.0,
+            147.60987,
+            121.76273,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            37.83681442524419,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/001 - Smooth Zoom In.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 2,
+      "name": "Smooth Zoom Out",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            70.0,
+            74.03098,
+            88.12942,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            37.83681442524419,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/002 - Smooth Zoom Out.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 3,
+      "name": "Fast Zoom In",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            155.0,
+            147.60986999999997,
+            121.76273,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            37.83681442524415,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/003 - Fast Zoom In.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 4,
+      "name": "Fast Zoom Out",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            70.0,
+            74.03097999999999,
+            88.12942,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            37.83681442524415,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/004 - Fast Zoom Out.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 5,
+      "name": "Whip Pan Left",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              472.0,
+              68.0
+            ],
+            [
+              424.703168,
+              68.0
+            ],
+            [
+              259.2814720000001,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/length",
+          "samples": [
+            16.666666666666668,
+            14.427233333333334,
+            6.594766666666671,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/005 - Whip Pan Left.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 6,
+      "name": "Whip Pan Right",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              -232.0,
+              68.0
+            ],
+            [
+              -184.703168,
+              68.0
+            ],
+            [
+              -19.281472000000093,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/length",
+          "samples": [
+            16.666666666666668,
+            14.427233333333334,
+            6.594766666666671,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/006 - Whip Pan Right.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 7,
+      "name": "Whip Pan Up",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              266.0
+            ],
+            [
+              120.0,
+              239.395532
+            ],
+            [
+              120.0,
+              146.34582800000004
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/length",
+          "samples": [
+            16.666666666666668,
+            14.427233333333334,
+            6.594766666666671,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/007 - Whip Pan Up.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 8,
+      "name": "Whip Pan Down",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              -130.00000000000003
+            ],
+            [
+              120.0,
+              -103.395532
+            ],
+            [
+              120.0,
+              -10.345828000000054
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/length",
+          "samples": [
+            16.666666666666668,
+            14.427233333333334,
+            6.594766666666671,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/008 - Whip Pan Down.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 9,
+      "name": "Smooth Slide Left",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              472.0,
+              68.0
+            ],
+            [
+              424.703168,
+              68.0
+            ],
+            [
+              259.281472,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/009 - Smooth Slide Left.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 10,
+      "name": "Smooth Slide Right",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              -232.0,
+              68.0
+            ],
+            [
+              -184.703168,
+              68.0
+            ],
+            [
+              -19.281472000000008,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/010 - Smooth Slide Right.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 11,
+      "name": "Smooth Slide Up",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              266.0
+            ],
+            [
+              120.0,
+              239.395532
+            ],
+            [
+              120.0,
+              146.345828
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/011 - Smooth Slide Up.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 12,
+      "name": "Smooth Slide Down",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              -130.00000000000003
+            ],
+            [
+              120.0,
+              -103.395532
+            ],
+            [
+              120.0,
+              -10.345828000000012
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/012 - Smooth Slide Down.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 13,
+      "name": "Spin Transition CW",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            65.0,
+            69.70281,
+            86.15099,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            -180.0,
+            -155.81412000000003,
+            -71.22348000000001,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            28.701319981793326,
+            95.82849340009103,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/013 - Spin Transition CW.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 14,
+      "name": "Spin Transition CCW",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            65.0,
+            69.70281,
+            86.15099,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            180.0,
+            155.81412000000003,
+            71.22348000000001,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            28.701319981793326,
+            95.82849340009103,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/014 - Spin Transition CCW.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 15,
+      "name": "Fast Rotation",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            90.0,
+            91.34366,
+            96.04314,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            -75.0,
+            -64.92255,
+            -29.676450000000017,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            28.70131998179335,
+            95.82849340009099,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/015 - Fast Rotation.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 16,
+      "name": "Smooth Rotation",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            90.0,
+            91.34366,
+            96.04314,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            28.0,
+            24.237752,
+            11.079208000000001,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            28.701319981793354,
+            95.82849340009103,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/016 - Smooth Rotation.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 17,
+      "name": "Blur In",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/blurriness",
+          "samples": [
+            10.833333333333334,
+            9.377701666666667,
+            4.286598333333336,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#2/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/opacity",
+          "samples": [
+            0.0,
+            13.4366,
+            60.43139999999997,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/017 - Blur In.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 18,
+      "name": "Blur Out",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/blurriness",
+          "samples": [
+            0.0,
+            1.4556316666666667,
+            6.546734999999997,
+            10.833333333333334,
+            10.833333333333334
+          ]
+        },
+        {
+          "path": "effects/#2/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/opacity",
+          "samples": [
+            100.0,
+            86.5634,
+            39.568600000000025,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/018 - Blur Out.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 19,
+      "name": "Directional Blur Left",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/length",
+          "samples": [
+            15.0,
+            12.98451,
+            5.935290000000004,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#2/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/position",
+          "samples": [
+            [
+              164.8,
+              68.0
+            ],
+            [
+              158.7804032,
+              68.0
+            ],
+            [
+              137.7267328,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/019 - Directional Blur Left.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 20,
+      "name": "Directional Blur Right",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/length",
+          "samples": [
+            15.0,
+            12.98451,
+            5.935290000000004,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#2/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/position",
+          "samples": [
+            [
+              75.19999999999999,
+              68.0
+            ],
+            [
+              81.2195968,
+              68.0
+            ],
+            [
+              102.27326719999999,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/020 - Directional Blur Right.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 21,
+      "name": "Flash Transition",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/master/exposure",
+          "samples": [
+            0.0,
+            2.945472000000001,
+            1.827633777777777,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/021 - Flash Transition.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 22,
+      "name": "White Flash",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/master/offset",
+          "samples": [
+            0.0,
+            0.9949363425925928,
+            0.59811470330952,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/022 - White Flash.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 23,
+      "name": "Black Flash",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/master/offset",
+          "samples": [
+            0.0,
+            -0.9949363425925928,
+            -0.5981147033095202,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/023 - Black Flash.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 24,
+      "name": "Elastic Zoom",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            180.0,
+            125.56259374999996,
+            103.54400000000001,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            92.84327573253196,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/024 - Elastic Zoom.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 25,
+      "name": "Cinematic Push",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            112.0,
+            110.38760800000003,
+            104.74823199999999,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            88.47964548104957,
+            100.0,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#2/blurriness",
+          "samples": [
+            2.6666666666666665,
+            1.492992,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/025 - Cinematic Push.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 26,
+      "name": "Subtle Camera Shake",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.16096831175012,
+              67.7860268234938
+            ],
+            [
+              120.49416889324276,
+              67.63506994257494
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            0.0,
+            0.09717198997852362,
+            -0.1745440908787015,
+            1.2959047891651702e-17,
+            -0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/026 - Subtle Camera Shake.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 27,
+      "name": "Medium Camera Shake",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              119.4526216709804,
+              68.47066004710535
+            ],
+            [
+              119.40204232727271,
+              68.7062994692784
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            0.0,
+            0.08574647150742319,
+            -0.1756509032470692,
+            1.2960372793114656e-17,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/027 - Medium Camera Shake.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 28,
+      "name": "Heavy Camera Shake",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              121.20568779132762,
+              67.68024433414216
+            ],
+            [
+              122.93559749669181,
+              66.83159507421438
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            0.0,
+            0.39525072062510097,
+            0.5234311438218077,
+            6.987608541103456e-17,
+            -0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/028 - Heavy Camera Shake.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 29,
+      "name": "Impact Shake",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              70.08726530665012
+            ],
+            [
+              121.51440868959813,
+              68.22312613387605
+            ],
+            [
+              120.63653488921237,
+              67.75510298218055
+            ],
+            [
+              120.07017976130852,
+              68.05236882238876
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            0.0,
+            0.0694750639109835,
+            -0.01874073323089109,
+            0.00022858684330385933,
+            -0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/029 - Impact Shake.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 30,
+      "name": "Explosion Shake",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              71.01493877627239
+            ],
+            [
+              122.31890950463948,
+              66.79049596613869
+            ],
+            [
+              119.55620331014558,
+              67.69464451512718
+            ],
+            [
+              119.98379205868339,
+              67.94297830889637
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            0.0,
+            0.09595303051569816,
+            -0.008403011581871688,
+            0.007366403903398301,
+            -0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/030 - Explosion Shake.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 31,
+      "name": "Handheld Camera",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              119.19022046157815,
+              68.18407330287513
+            ],
+            [
+              120.8891606803553,
+              67.79713627706846
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            0.0,
+            0.10018326264410227,
+            -0.12592088071835109,
+            5.481459832183295e-18,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/031 - Handheld Camera.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 32,
+      "name": "Cinematic Handheld",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              119.65618634688283,
+              67.93935096489757
+            ],
+            [
+              119.528648112254,
+              68.3432794967021
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            0.0,
+            -0.011350878438899738,
+            0.17318060698781865,
+            2.200012783557056e-17,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/032 - Cinematic Handheld.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 33,
+      "name": "Horizontal Shake",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.84796075656917,
+              68.0
+            ],
+            [
+              121.32567932581593,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            0.0,
+            0.05994549345096226,
+            -0.06052634029335269,
+            -2.0965862927075083e-17,
+            -0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/033 - Horizontal Shake.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 34,
+      "name": "Vertical Shake",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              67.62724777407392
+            ],
+            [
+              120.0,
+              67.41229979134413
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            0.0,
+            -0.11409977337746624,
+            0.13250437391836428,
+            2.0963838520835175e-17,
+            -0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/034 - Vertical Shake.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 35,
+      "name": "Rotation Shake",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            0.0,
+            -0.04981704303007324,
+            1.2915233377859883,
+            -1.0795893965036776e-16,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/035 - Rotation Shake.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 36,
+      "name": "Micro Jitter",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              119.73543017499185,
+              67.84085854218573
+            ],
+            [
+              119.75196210711346,
+              68.08649704102866
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            0.0,
+            0.023761542081497996,
+            -0.16248787648062535,
+            1.2964347068182676e-17,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/036 - Micro Jitter.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 37,
+      "name": "Smooth Camera Drift",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              122.2884613622368,
+              68.72831653368905
+            ],
+            [
+              118.71748452016854,
+              66.93024516364397
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/rotation",
+          "samples": [
+            0.0,
+            0.1009042519201744,
+            0.1041445030403088,
+            -2.0964724426423524e-17,
+            -0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/037 - Smooth Camera Drift.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 38,
+      "name": "Camera Punch",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            100.0,
+            113.12800000000001,
+            97.36611269722013,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/038 - Camera Punch.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 39,
+      "name": "Camera Bounce",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              60.345401881729266
+            ],
+            [
+              120.0,
+              68.0061493099111
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/039 - Camera Bounce.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 40,
+      "name": "Camera Recoil",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              115.26145980006356,
+              69.71723976337482
+            ],
+            [
+              122.69164777839623,
+              66.89779166404277
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/040 - Camera Recoil.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 41,
+      "name": "Digital Glitch",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/masterAmplitude",
+          "samples": [
+            0.0,
+            90.13899323816676,
+            74.55418381344307,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/041 - Digital Glitch.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 44,
+      "name": "Chromatic Glitch",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/aberrationRed",
+          "samples": [
+            0.0,
+            31.962111999999998,
+            18.262329893313296,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#1/aberrationBlue",
+          "samples": [
+            0.0,
+            -25.192082990397807,
+            -16.049511464497037,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#2/masterAmplitude",
+          "samples": [
+            0.0,
+            90.13899323816679,
+            74.55418381344307,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/044 - Chromatic Glitch.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 45,
+      "name": "Digital Interference",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/masterAmplitude",
+          "samples": [
+            0.0,
+            90.13899323816679,
+            74.55418381344307,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/045 - Digital Interference.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 46,
+      "name": "Signal Distortion",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/amount",
+          "samples": [
+            0.0,
+            31.07498696296296,
+            16.079999703703702,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#1/evolution",
+          "samples": [
+            0.0,
+            60.46469999999999,
+            271.94130000000007,
+            450.0,
+            450.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/046 - Signal Distortion.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 47,
+      "name": "Glitch Flicker",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            100.0,
+            99.63764404296872,
+            87.13793200601054,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#2/masterAmplitude",
+          "samples": [
+            0.0,
+            90.13899323816673,
+            74.55418381344306,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/047 - Glitch Flicker.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 48,
+      "name": "Pixel Distortion",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/masterAmplitude",
+          "samples": [
+            0.0,
+            90.13899323816678,
+            74.55418381344307,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/048 - Pixel Distortion.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 49,
+      "name": "Horizontal Glitch",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/masterAmplitude",
+          "samples": [
+            0.0,
+            90.13899323816678,
+            74.55418381344307,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/049 - Horizontal Glitch.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 50,
+      "name": "Vertical Glitch",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/masterAmplitude",
+          "samples": [
+            0.0,
+            90.13899323816679,
+            74.55418381344307,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/050 - Vertical Glitch.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 51,
+      "name": "VHS Distortion",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/masterAmplitude",
+          "samples": [
+            0.0,
+            90.13899323816679,
+            74.55418381344306,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#2/blurriness",
+          "samples": [
+            0.25,
+            0.43338666666666664,
+            0.6444533333333332,
+            0.25,
+            0.25
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/051 - VHS Distortion.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 52,
+      "name": "Digital Breakdown",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/masterAmplitude",
+          "samples": [
+            0.0,
+            90.13899323816682,
+            74.55418381344307,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/052 - Digital Breakdown.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 53,
+      "name": "Glitch Reveal",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/masterAmplitude",
+          "samples": [
+            0.0,
+            90.1389932381668,
+            74.55418381344307,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#2/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/opacity",
+          "samples": [
+            0.0,
+            13.436599999999999,
+            60.431400000000025,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/053 - Glitch Reveal.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 54,
+      "name": "Glitch Exit",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/masterAmplitude",
+          "samples": [
+            0.0,
+            90.1389932381668,
+            74.55418381344307,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#2/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/opacity",
+          "samples": [
+            100.0,
+            86.5634,
+            39.568599999999975,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/054 - Glitch Exit.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 55,
+      "name": "Cyberpunk Glitch",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/masterAmplitude",
+          "samples": [
+            0.0,
+            90.13899323816678,
+            74.55418381344307,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#2/radius",
+          "samples": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "path": "effects/#2/intensity",
+          "samples": [
+            0.0,
+            1.637578753125,
+            0.39662677120000006,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/055 - Cyberpunk Glitch.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 56,
+      "name": "Smooth Text Fade In",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            13.436599999999999,
+            60.43139999999998,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/056 - Smooth Text Fade In.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 57,
+      "name": "Smooth Text Fade Out",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            100.0,
+            86.5634,
+            39.56860000000001,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/057 - Smooth Text Fade Out.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 58,
+      "name": "Text Slide Up",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              161.0859375,
+              99.615625
+            ],
+            [
+              161.0859375,
+              96.7133194
+            ],
+            [
+              161.0859375,
+              86.5624426
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            29.746456559766752,
+            96.96417900874636,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/058 - Text Slide Up.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 59,
+      "name": "Text Slide Down",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              161.0859375,
+              56.415625000000006
+            ],
+            [
+              161.0859375,
+              59.3179306
+            ],
+            [
+              161.0859375,
+              69.4688074
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            29.746456559766752,
+            96.96417900874636,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/059 - Text Slide Down.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 60,
+      "name": "Text Slide Left",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              212.2859375,
+              78.015625
+            ],
+            [
+              205.4063983,
+              78.015625
+            ],
+            [
+              181.3450607,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            29.746456559766752,
+            96.96417900874636,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/060 - Text Slide Left.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 61,
+      "name": "Text Slide Right",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              109.8859375,
+              78.015625
+            ],
+            [
+              116.7654767,
+              78.015625
+            ],
+            [
+              140.8268143,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            29.746456559766752,
+            96.96417900874636,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/061 - Text Slide Right.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 62,
+      "name": "Text Pop In",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            0.0,
+            40.20538809600001,
+            107.97519925,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            51.66639231824415,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/062 - Text Pop In.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 63,
+      "name": "Text Pop Out",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            100.0,
+            109.93253785600001,
+            76.63407353268215,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            100.0,
+            100.0,
+            100.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/063 - Text Pop Out.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 64,
+      "name": "Text Bounce In",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            0.0,
+            100.7700311224643,
+            92.11846745206596,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            51.66639231824416,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/064 - Text Bounce In.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 65,
+      "name": "Text Bounce Out",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            100.0,
+            87.236288,
+            108.86912000000004,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            100.0,
+            100.00000000000001,
+            100.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/065 - Text Bounce Out.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 66,
+      "name": "Text Elastic In",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            0.0,
+            116.09953689599999,
+            97.03412451171873,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            51.66639231824415,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/066 - Text Elastic In.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 67,
+      "name": "Text Elastic Out",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            100.0,
+            111.91590399999998,
+            119.527424,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            100.0,
+            100.0,
+            100.00000000000001,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/067 - Text Elastic Out.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 68,
+      "name": "Text Scale Reveal",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            65.0,
+            69.70281,
+            86.15099,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            51.66639231824415,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/068 - Text Scale Reveal.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 69,
+      "name": "Text Overshoot",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            78.0,
+            95.12502551020405,
+            111.72507958984377,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            51.66639231824416,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/069 - Text Overshoot.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 70,
+      "name": "Text Cinematic Reveal",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ],
+            [
+              161.0859375,
+              78.015625
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            106.0,
+            105.193804,
+            102.374116,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            23.02294569509464,
+            86.68818721758598,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#2/blurriness",
+          "samples": [
+            4.666666666666667,
+            3.6943887341106536,
+            0.8461078456790119,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/070 - Text Cinematic Reveal.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 71,
+      "name": "Smooth Pop In",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            0.0,
+            13.436599999999999,
+            60.43140000000001,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            51.66639231824416,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/071 - Smooth Pop In.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 72,
+      "name": "Smooth Pop Out",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            100.0,
+            86.56339999999999,
+            39.56860000000001,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            100.0,
+            100.0,
+            100.00000000000001,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/072 - Smooth Pop Out.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 73,
+      "name": "Fast Pop In",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            0.0,
+            13.43660000000003,
+            60.43139999999994,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            51.66639231824433,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/073 - Fast Pop In.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 74,
+      "name": "Fast Pop Out",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            100.0,
+            86.56340000000002,
+            39.56860000000001,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            100.0,
+            100.0,
+            100.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/074 - Fast Pop Out.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 75,
+      "name": "Elastic Pop",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            0.0,
+            130.762286952,
+            103.703804416,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            51.66639231824416,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/075 - Elastic Pop.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 76,
+      "name": "Bounce In",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            0.0,
+            88.19107006045827,
+            90.05108731935681,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            51.6663923182442,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/076 - Bounce In.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 77,
+      "name": "Bounce Out",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            100.0,
+            85.98914111111111,
+            107.77563116914506,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            100.0,
+            100.0,
+            100.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/077 - Bounce Out.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 78,
+      "name": "Overshoot Scale",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            60.0,
+            93.84898585185185,
+            117.77761496874999,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            51.6663923182442,
+            100.0,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/078 - Overshoot Scale.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 79,
+      "name": "Smooth Scale Up",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            100.0,
+            103.35915,
+            115.10784999999998,
+            125.0,
+            125.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/079 - Smooth Scale Up.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 80,
+      "name": "Smooth Scale Down",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            100.0,
+            96.64085000000001,
+            84.89215000000002,
+            75.0,
+            75.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/080 - Smooth Scale Down.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 81,
+      "name": "Spring Scale",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            70.0,
+            115.72265625,
+            103.30566406249996,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/081 - Spring Scale.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 82,
+      "name": "Rubber Scale",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            100.0,
+            73.44951705599999,
+            104.401592832,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/scaleWidth",
+          "samples": [
+            100.0,
+            126.55048294400001,
+            95.598407168,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/082 - Rubber Scale.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 83,
+      "name": "Punch Scale",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            100.0,
+            119.272,
+            94.31987199999999,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/083 - Punch Scale.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 84,
+      "name": "UI Button Pop",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            100.0,
+            91.04714674680689,
+            105.99477065889212,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/084 - UI Button Pop.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 85,
+      "name": "Dynamic Bounce",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#1/scaleHeight",
+          "samples": [
+            35.0,
+            129.58679980468756,
+            114.90086871565236,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#1/opacity",
+          "samples": [
+            0.0,
+            51.66639231824415,
+            100.0,
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "path": "effects/#2/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/position",
+          "samples": [
+            [
+              120.0,
+              82.4
+            ],
+            [
+              120.0,
+              69.41974695717505
+            ],
+            [
+              120.0,
+              66.62279650246974
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/085 - Dynamic Bounce.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 86,
+      "name": "Smooth Blur In",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/blurriness",
+          "samples": [
+            8.0,
+            6.925072,
+            3.1654880000000007,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/086 - Smooth Blur In.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 87,
+      "name": "Smooth Blur Out",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/blurriness",
+          "samples": [
+            0.0,
+            1.0749280000000003,
+            4.834512000000002,
+            8.0,
+            8.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/087 - Smooth Blur Out.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 88,
+      "name": "Fast Blur",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/blurriness",
+          "samples": [
+            0.0,
+            5.952152935821586,
+            5.253065081542444,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/088 - Fast Blur.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 89,
+      "name": "Focus Reveal",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/blurriness",
+          "samples": [
+            15.0,
+            12.984509999999998,
+            5.935289999999998,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "path": "effects/#2/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/opacity",
+          "samples": [
+            0.0,
+            13.436600000000007,
+            60.43140000000001,
+            100.0,
+            100.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/089 - Focus Reveal.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 90,
+      "name": "Focus Exit",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/blurriness",
+          "samples": [
+            0.0,
+            2.01549,
+            9.064709999999998,
+            15.0,
+            15.0
+          ]
+        },
+        {
+          "path": "effects/#2/anchor",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/position",
+          "samples": [
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ],
+            [
+              120.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "path": "effects/#2/opacity",
+          "samples": [
+            100.0,
+            86.5634,
+            39.56860000000001,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/090 - Focus Exit.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 91,
+      "name": "Soft Glow",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/radius",
+          "samples": [
+            3.6666666666666665,
+            3.6666666666666665,
+            3.6666666666666665,
+            3.6666666666666665,
+            3.6666666666666665
+          ]
+        },
+        {
+          "path": "effects/#1/intensity",
+          "samples": [
+            0.0,
+            0.0873379,
+            0.39280409999999993,
+            0.65,
+            0.65
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/091 - Soft Glow.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 92,
+      "name": "Intense Glow",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/radius",
+          "samples": [
+            8.0,
+            8.0,
+            8.0,
+            8.0,
+            8.0
+          ]
+        },
+        {
+          "path": "effects/#1/intensity",
+          "samples": [
+            0.0,
+            0.2956052,
+            1.3294907999999999,
+            2.2,
+            2.2
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/092 - Intense Glow.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 93,
+      "name": "Glow Pulse",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/radius",
+          "samples": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ]
+        },
+        {
+          "path": "effects/#1/intensity",
+          "samples": [
+            0.2,
+            1.7709184,
+            0.5060736000000007,
+            0.2,
+            0.2
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/093 - Glow Pulse.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 94,
+      "name": "Neon Glow",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/radius",
+          "samples": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ]
+        },
+        {
+          "path": "effects/#1/intensity",
+          "samples": [
+            0.0,
+            0.37622480000000014,
+            1.6920792000000002,
+            2.8,
+            2.8
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/094 - Neon Glow.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 95,
+      "name": "Light Flash",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/master/exposure",
+          "samples": [
+            0.0,
+            1.1781888,
+            0.7310535111111113,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/095 - Light Flash.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 96,
+      "name": "Impact Flash",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/master/exposure",
+          "samples": [
+            0.0,
+            3.3608960000000008,
+            1.7050044081632665,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/096 - Impact Flash.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 97,
+      "name": "Exposure Flash",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/master/exposure",
+          "samples": [
+            0.0,
+            1.911515703231679,
+            -0.3569679418787786,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/097 - Exposure Flash.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 98,
+      "name": "Flicker Light",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/master/exposure",
+          "samples": [
+            0.0,
+            0.8461924198250736,
+            0.608410548148148,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/098 - Flicker Light.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 99,
+      "name": "Cinematic Bloom",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/radius",
+          "samples": [
+            12.5,
+            12.5,
+            12.5,
+            12.5,
+            12.5
+          ]
+        },
+        {
+          "path": "effects/#1/intensity",
+          "samples": [
+            0.0,
+            0.4841408,
+            1.0786752,
+            0.7,
+            0.7
+          ]
+        },
+        {
+          "path": "effects/#2/master/exposure",
+          "samples": [
+            0.0,
+            0.13203839999999997,
+            0.2904038399999999,
+            0.12,
+            0.12
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/099 - Cinematic Bloom.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    },
+    {
+      "id": 100,
+      "name": "Dreamy Blur",
+      "structural": true,
+      "engine_integration": true,
+      "matrix": [
+        "1920x1080@24",
+        "1920x1080@30",
+        "1920x1080@60",
+        "1080x1920@24",
+        "1080x1920@30",
+        "1080x1920@60"
+      ],
+      "sampled_parameters": [
+        {
+          "path": "effects/#1/blurriness",
+          "samples": [
+            0.0,
+            0.5868373333333333,
+            1.3066773333333332,
+            0.8333333333333334,
+            0.8333333333333334
+          ]
+        },
+        {
+          "path": "effects/#2/radius",
+          "samples": [
+            10.0,
+            10.0,
+            10.0,
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "path": "effects/#2/intensity",
+          "samples": [
+            0.0,
+            0.21331435185185182,
+            0.6452875,
+            0.45,
+            0.45
+          ]
+        }
+      ],
+      "rendered_cpu": {
+        "changed": true,
+        "gif": "Previews/100 - Dreamy Blur.gif",
+        "frames": 13
+      },
+      "visually_reviewed_in_app": false
+    }
+  ],
+  "failures": [],
+  "not_tested": [
+    "GPU",
+    "visual playback in the desktop application",
+    "commercial footage",
+    "all frames at all FPS"
+  ],
+  "post_review_text_revalidation": true
+}

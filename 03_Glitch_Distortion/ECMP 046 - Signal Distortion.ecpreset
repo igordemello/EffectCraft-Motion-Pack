@@ -1,0 +1,405 @@
+{
+  "effectcraftAnimationPreset": 2,
+  "name": "ECMP 046 - Signal Distortion",
+  "properties": [],
+  "effects": [
+    {
+      "children": [
+        {
+          "hold_only": true,
+          "match": "displacement",
+          "name": "Displacement",
+          "node": "Prop",
+          "shown_dims": 0,
+          "spatial": false,
+          "static_only": false,
+          "three_d_only": false,
+          "two_d_only": false,
+          "ui": {
+            "kind": "Popup",
+            "options": [
+              "Turbulent",
+              "Bulge",
+              "Twist",
+              "Turbulent Smoother",
+              "Bulge Smoother",
+              "Twist Smoother",
+              "Vertical Displacement",
+              "Horizontal Displacement",
+              "Cross Displacement"
+            ]
+          },
+          "uid": 83,
+          "value": {
+            "t": "Enum",
+            "v": 7
+          }
+        },
+        {
+          "hold_only": false,
+          "match": "amount",
+          "name": "Amount",
+          "node": "Prop",
+          "shown_dims": 0,
+          "spatial": false,
+          "static_only": false,
+          "three_d_only": false,
+          "two_d_only": false,
+          "ui": {
+            "decimals": 1,
+            "kind": "Slider",
+            "max": 1000.0,
+            "min": -1000.0,
+            "slider_max": 200.0,
+            "slider_min": -200.0
+          },
+          "uid": 84,
+          "value": {
+            "t": "Scalar",
+            "v": 0
+          },
+          "keys": [
+            {
+              "time": 0,
+              "value": {
+                "t": "Scalar",
+                "v": 0
+              },
+              "in_interp": "Bezier",
+              "out_interp": "Bezier",
+              "in_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ]
+            },
+            {
+              "time": 50803200000,
+              "value": {
+                "t": "Scalar",
+                "v": 32
+              },
+              "in_interp": "Bezier",
+              "out_interp": "Bezier",
+              "in_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ]
+            },
+            {
+              "time": 355622400000,
+              "value": {
+                "t": "Scalar",
+                "v": 0
+              },
+              "in_interp": "Bezier",
+              "out_interp": "Bezier",
+              "in_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "hold_only": false,
+          "match": "size",
+          "name": "Size",
+          "node": "Prop",
+          "shown_dims": 0,
+          "spatial": false,
+          "static_only": false,
+          "three_d_only": false,
+          "two_d_only": false,
+          "ui": {
+            "decimals": 1,
+            "kind": "Slider",
+            "max": 4000.0,
+            "min": 2.0,
+            "slider_max": 400.0,
+            "slider_min": 2.0
+          },
+          "uid": 85,
+          "value": {
+            "t": "Scalar",
+            "v": 70
+          }
+        },
+        {
+          "hold_only": false,
+          "match": "offset",
+          "name": "Offset (Turbulence)",
+          "node": "Prop",
+          "shown_dims": 0,
+          "spatial": true,
+          "static_only": false,
+          "three_d_only": false,
+          "two_d_only": false,
+          "ui": {
+            "kind": "Point"
+          },
+          "uid": 86,
+          "value": {
+            "t": "Vec2",
+            "v": [
+              80.0,
+              45.0
+            ]
+          }
+        },
+        {
+          "hold_only": false,
+          "match": "complexity",
+          "name": "Complexity",
+          "node": "Prop",
+          "shown_dims": 0,
+          "spatial": false,
+          "static_only": false,
+          "three_d_only": false,
+          "two_d_only": false,
+          "ui": {
+            "decimals": 1,
+            "kind": "Slider",
+            "max": 10.0,
+            "min": 1.0,
+            "slider_max": 10.0,
+            "slider_min": 1.0
+          },
+          "uid": 87,
+          "value": {
+            "t": "Scalar",
+            "v": 1.0
+          }
+        },
+        {
+          "hold_only": false,
+          "match": "evolution",
+          "name": "Evolution",
+          "node": "Prop",
+          "shown_dims": 0,
+          "spatial": false,
+          "static_only": false,
+          "three_d_only": false,
+          "two_d_only": false,
+          "ui": {
+            "kind": "Angle"
+          },
+          "uid": 88,
+          "value": {
+            "t": "Scalar",
+            "v": 0
+          },
+          "keys": [
+            {
+              "time": 0,
+              "value": {
+                "t": "Scalar",
+                "v": 0
+              },
+              "in_interp": "Bezier",
+              "out_interp": "Bezier",
+              "in_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ]
+            },
+            {
+              "time": 355622400000,
+              "value": {
+                "t": "Scalar",
+                "v": 450
+              },
+              "in_interp": "Bezier",
+              "out_interp": "Bezier",
+              "in_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "children": [
+            {
+              "hold_only": true,
+              "match": "cycleEvolution",
+              "name": "Cycle Evolution",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "kind": "Checkbox"
+              },
+              "uid": 89,
+              "value": {
+                "t": "Bool",
+                "v": false
+              }
+            },
+            {
+              "hold_only": false,
+              "match": "cycle",
+              "name": "Cycle (in Revolutions)",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 0,
+                "kind": "Slider",
+                "max": 1000.0,
+                "min": 1.0,
+                "slider_max": 20.0,
+                "slider_min": 1.0
+              },
+              "uid": 91,
+              "value": {
+                "t": "Scalar",
+                "v": 1.0
+              }
+            },
+            {
+              "hold_only": false,
+              "match": "randomSeed",
+              "name": "Random Seed",
+              "node": "Prop",
+              "shown_dims": 0,
+              "spatial": false,
+              "static_only": false,
+              "three_d_only": false,
+              "two_d_only": false,
+              "ui": {
+                "decimals": 0,
+                "kind": "Slider",
+                "max": 10000.0,
+                "min": 0.0,
+                "slider_max": 1000.0,
+                "slider_min": 0.0
+              },
+              "uid": 92,
+              "value": {
+                "t": "Scalar",
+                "v": 0.0
+              }
+            }
+          ],
+          "enabled": true,
+          "kind": {
+            "kind": "Plain"
+          },
+          "match": "evolutionOptions",
+          "name": "Evolution Options",
+          "node": "Group",
+          "uid": 90
+        },
+        {
+          "hold_only": true,
+          "match": "pinning",
+          "name": "Pinning",
+          "node": "Prop",
+          "shown_dims": 0,
+          "spatial": false,
+          "static_only": false,
+          "three_d_only": false,
+          "two_d_only": false,
+          "ui": {
+            "kind": "Popup",
+            "options": [
+              "None",
+              "Pin All",
+              "Pin Horizontal",
+              "Pin Vertical",
+              "Pin Left",
+              "Pin Top",
+              "Pin Right",
+              "Pin Bottom",
+              "Pin All Locked",
+              "Pin Horizontal Locked",
+              "Pin Vertical Locked",
+              "Pin Left Locked",
+              "Pin Top Locked",
+              "Pin Right Locked",
+              "Pin Bottom Locked"
+            ]
+          },
+          "uid": 93,
+          "value": {
+            "t": "Enum",
+            "v": 1
+          }
+        },
+        {
+          "hold_only": true,
+          "match": "resizeLayer",
+          "name": "Resize Layer",
+          "node": "Prop",
+          "shown_dims": 0,
+          "spatial": false,
+          "static_only": false,
+          "three_d_only": false,
+          "two_d_only": false,
+          "ui": {
+            "kind": "Checkbox"
+          },
+          "uid": 94,
+          "value": {
+            "t": "Bool",
+            "v": false
+          }
+        }
+      ],
+      "enabled": true,
+      "kind": {
+        "effect": "ec.distort.turbulentdisplace",
+        "kind": "Effect"
+      },
+      "match": "ec.distort.turbulentdisplace",
+      "name": "Turbulent Displace",
+      "uid": 82
+    }
+  ]
+}

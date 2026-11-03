@@ -1,0 +1,9 @@
+* text=auto
+*.ecpreset -text
+*.json -text
+*.png binary
+*.gif binary
+*.bat text eol=crlf
+*.ps1 text eol=lf
+*.py text eol=lf
+*.md text eol=lf

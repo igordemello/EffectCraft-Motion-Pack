@@ -1,0 +1,1309 @@
+[
+  {
+    "id": 1,
+    "name": "Smooth Zoom In",
+    "category": "01_Transitions",
+    "duration": 0.6,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 001 - Smooth Zoom In.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 2,
+    "name": "Smooth Zoom Out",
+    "category": "01_Transitions",
+    "duration": 0.6,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 002 - Smooth Zoom Out.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 3,
+    "name": "Fast Zoom In",
+    "category": "01_Transitions",
+    "duration": 0.22,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 003 - Fast Zoom In.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 4,
+    "name": "Fast Zoom Out",
+    "category": "01_Transitions",
+    "duration": 0.22,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 004 - Fast Zoom Out.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 5,
+    "name": "Whip Pan Left",
+    "category": "01_Transitions",
+    "duration": 0.28,
+    "intensity": "medium",
+    "notes": "Incoming layer travels in the named direction; overlap it above the outgoing clip.",
+    "effects": [
+      "ec.distort.transform",
+      "ec.blur.directional"
+    ],
+    "path": "01_Transitions/ECMP 005 - Whip Pan Left.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 6,
+    "name": "Whip Pan Right",
+    "category": "01_Transitions",
+    "duration": 0.28,
+    "intensity": "medium",
+    "notes": "Incoming layer travels in the named direction; overlap it above the outgoing clip.",
+    "effects": [
+      "ec.distort.transform",
+      "ec.blur.directional"
+    ],
+    "path": "01_Transitions/ECMP 006 - Whip Pan Right.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 7,
+    "name": "Whip Pan Up",
+    "category": "01_Transitions",
+    "duration": 0.28,
+    "intensity": "medium",
+    "notes": "Incoming layer travels in the named direction; overlap it above the outgoing clip.",
+    "effects": [
+      "ec.distort.transform",
+      "ec.blur.directional"
+    ],
+    "path": "01_Transitions/ECMP 007 - Whip Pan Up.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 8,
+    "name": "Whip Pan Down",
+    "category": "01_Transitions",
+    "duration": 0.28,
+    "intensity": "medium",
+    "notes": "Incoming layer travels in the named direction; overlap it above the outgoing clip.",
+    "effects": [
+      "ec.distort.transform",
+      "ec.blur.directional"
+    ],
+    "path": "01_Transitions/ECMP 008 - Whip Pan Down.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 9,
+    "name": "Smooth Slide Left",
+    "category": "01_Transitions",
+    "duration": 0.7,
+    "intensity": "medium",
+    "notes": "Incoming layer travels in the named direction; overlap it above the outgoing clip.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 009 - Smooth Slide Left.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 10,
+    "name": "Smooth Slide Right",
+    "category": "01_Transitions",
+    "duration": 0.7,
+    "intensity": "medium",
+    "notes": "Incoming layer travels in the named direction; overlap it above the outgoing clip.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 010 - Smooth Slide Right.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 11,
+    "name": "Smooth Slide Up",
+    "category": "01_Transitions",
+    "duration": 0.7,
+    "intensity": "medium",
+    "notes": "Incoming layer travels in the named direction; overlap it above the outgoing clip.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 011 - Smooth Slide Up.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 12,
+    "name": "Smooth Slide Down",
+    "category": "01_Transitions",
+    "duration": 0.7,
+    "intensity": "medium",
+    "notes": "Incoming layer travels in the named direction; overlap it above the outgoing clip.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 012 - Smooth Slide Down.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 13,
+    "name": "Spin Transition CW",
+    "category": "01_Transitions",
+    "duration": 0.55,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 013 - Spin Transition CW.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 14,
+    "name": "Spin Transition CCW",
+    "category": "01_Transitions",
+    "duration": 0.55,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 014 - Spin Transition CCW.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 15,
+    "name": "Fast Rotation",
+    "category": "01_Transitions",
+    "duration": 0.28,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 015 - Fast Rotation.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 16,
+    "name": "Smooth Rotation",
+    "category": "01_Transitions",
+    "duration": 0.85,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 016 - Smooth Rotation.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 17,
+    "name": "Blur In",
+    "category": "01_Transitions",
+    "duration": 0.42,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.blur.gaussian",
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 017 - Blur In.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 18,
+    "name": "Blur Out",
+    "category": "01_Transitions",
+    "duration": 0.42,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.blur.gaussian",
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 018 - Blur Out.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 19,
+    "name": "Directional Blur Left",
+    "category": "01_Transitions",
+    "duration": 0.42,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.blur.directional",
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 019 - Directional Blur Left.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 20,
+    "name": "Directional Blur Right",
+    "category": "01_Transitions",
+    "duration": 0.42,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.blur.directional",
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 020 - Directional Blur Right.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 21,
+    "name": "Flash Transition",
+    "category": "01_Transitions",
+    "duration": 0.32,
+    "intensity": "medium",
+    "notes": "Single-layer luminance pulse; apply to both overlapped clips for a cut flash.",
+    "effects": [
+      "ec.color.exposure"
+    ],
+    "path": "01_Transitions/ECMP 021 - Flash Transition.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 22,
+    "name": "White Flash",
+    "category": "01_Transitions",
+    "duration": 0.24,
+    "intensity": "medium",
+    "notes": "Single-layer luminance pulse; apply to both overlapped clips for a cut flash.",
+    "effects": [
+      "ec.color.exposure"
+    ],
+    "path": "01_Transitions/ECMP 022 - White Flash.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 23,
+    "name": "Black Flash",
+    "category": "01_Transitions",
+    "duration": 0.38,
+    "intensity": "medium",
+    "notes": "Single-layer luminance pulse; apply to both overlapped clips for a cut flash.",
+    "effects": [
+      "ec.color.exposure"
+    ],
+    "path": "01_Transitions/ECMP 023 - Black Flash.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 24,
+    "name": "Elastic Zoom",
+    "category": "01_Transitions",
+    "duration": 0.8,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 024 - Elastic Zoom.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 25,
+    "name": "Cinematic Push",
+    "category": "01_Transitions",
+    "duration": 1.2,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform",
+      "ec.blur.gaussian"
+    ],
+    "path": "01_Transitions/ECMP 025 - Cinematic Push.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 26,
+    "name": "Subtle Camera Shake",
+    "category": "02_Camera_Shake",
+    "duration": 4.0,
+    "intensity": "subtle",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 026 - Subtle Camera Shake.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 27,
+    "name": "Medium Camera Shake",
+    "category": "02_Camera_Shake",
+    "duration": 4.0,
+    "intensity": "medium",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 027 - Medium Camera Shake.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 28,
+    "name": "Heavy Camera Shake",
+    "category": "02_Camera_Shake",
+    "duration": 4.0,
+    "intensity": "heavy",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 028 - Heavy Camera Shake.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 29,
+    "name": "Impact Shake",
+    "category": "02_Camera_Shake",
+    "duration": 0.65,
+    "intensity": "medium",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 029 - Impact Shake.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 30,
+    "name": "Explosion Shake",
+    "category": "02_Camera_Shake",
+    "duration": 1.1,
+    "intensity": "heavy",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 030 - Explosion Shake.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 31,
+    "name": "Handheld Camera",
+    "category": "02_Camera_Shake",
+    "duration": 4.0,
+    "intensity": "subtle",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 031 - Handheld Camera.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 32,
+    "name": "Cinematic Handheld",
+    "category": "02_Camera_Shake",
+    "duration": 4.0,
+    "intensity": "subtle",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 032 - Cinematic Handheld.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 33,
+    "name": "Horizontal Shake",
+    "category": "02_Camera_Shake",
+    "duration": 4.0,
+    "intensity": "medium",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 033 - Horizontal Shake.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 34,
+    "name": "Vertical Shake",
+    "category": "02_Camera_Shake",
+    "duration": 4.0,
+    "intensity": "medium",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 034 - Vertical Shake.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 35,
+    "name": "Rotation Shake",
+    "category": "02_Camera_Shake",
+    "duration": 4.0,
+    "intensity": "medium",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 035 - Rotation Shake.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 36,
+    "name": "Micro Jitter",
+    "category": "02_Camera_Shake",
+    "duration": 4.0,
+    "intensity": "subtle",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 036 - Micro Jitter.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 37,
+    "name": "Smooth Camera Drift",
+    "category": "02_Camera_Shake",
+    "duration": 4.0,
+    "intensity": "subtle",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 037 - Smooth Camera Drift.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 38,
+    "name": "Camera Punch",
+    "category": "02_Camera_Shake",
+    "duration": 0.4,
+    "intensity": "medium",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 038 - Camera Punch.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 39,
+    "name": "Camera Bounce",
+    "category": "02_Camera_Shake",
+    "duration": 0.85,
+    "intensity": "medium",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 039 - Camera Bounce.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 40,
+    "name": "Camera Recoil",
+    "category": "02_Camera_Shake",
+    "duration": 0.5,
+    "intensity": "medium",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 040 - Camera Recoil.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 41,
+    "name": "Digital Glitch",
+    "category": "03_Glitch_Distortion",
+    "duration": 0.6,
+    "intensity": "medium",
+    "notes": "Native VR Digital Glitch: per-band channel offsets and displacement with horizontal wrap. Not a uniform RGB split.",
+    "effects": [
+      "ec.vr.digitalglitch"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 041 - Digital Glitch.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 42,
+    "name": "RGB Split",
+    "implemented": false,
+    "reason": "Uniform 2D RGB channel translation is not a native preset operation; VR aberrations are spherical, and VR glitch splits channels only in random bands."
+  },
+  {
+    "id": 43,
+    "name": "RGB Split Heavy",
+    "implemented": false,
+    "reason": "Uniform 2D RGB channel translation is not a native preset operation; VR aberrations are spherical, and VR glitch splits channels only in random bands."
+  },
+  {
+    "id": 44,
+    "name": "Chromatic Glitch",
+    "category": "03_Glitch_Distortion",
+    "duration": 0.7,
+    "intensity": "medium",
+    "notes": "Real radial RGB aberration using native VR spherical sampling, plus band interference; wrapped edges may appear.",
+    "effects": [
+      "ec.vr.chromaticaberrations",
+      "ec.vr.digitalglitch"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 044 - Chromatic Glitch.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 45,
+    "name": "Digital Interference",
+    "category": "03_Glitch_Distortion",
+    "duration": 2,
+    "intensity": "medium",
+    "notes": "Native VR Digital Glitch: per-band channel offsets and displacement with horizontal wrap. Not a uniform RGB split.",
+    "effects": [
+      "ec.vr.digitalglitch"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 045 - Digital Interference.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 46,
+    "name": "Signal Distortion",
+    "category": "03_Glitch_Distortion",
+    "duration": 1.4,
+    "intensity": "medium",
+    "notes": "Native VR Digital Glitch: per-band channel offsets and displacement with horizontal wrap. Not a uniform RGB split.",
+    "effects": [
+      "ec.distort.turbulentdisplace"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 046 - Signal Distortion.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 47,
+    "name": "Glitch Flicker",
+    "category": "03_Glitch_Distortion",
+    "duration": 0.45,
+    "intensity": "medium",
+    "notes": "Native VR Digital Glitch: per-band channel offsets and displacement with horizontal wrap. Not a uniform RGB split.",
+    "effects": [
+      "ec.distort.transform",
+      "ec.vr.digitalglitch"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 047 - Glitch Flicker.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 48,
+    "name": "Pixel Distortion",
+    "category": "03_Glitch_Distortion",
+    "duration": 0.8,
+    "intensity": "medium",
+    "notes": "Native block/band signal displacement; not a spatial mosaic/pixelation filter.",
+    "effects": [
+      "ec.vr.digitalglitch"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 048 - Pixel Distortion.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 49,
+    "name": "Horizontal Glitch",
+    "category": "03_Glitch_Distortion",
+    "duration": 0.5,
+    "intensity": "medium",
+    "notes": "Native VR Digital Glitch: per-band channel offsets and displacement with horizontal wrap. Not a uniform RGB split.",
+    "effects": [
+      "ec.vr.digitalglitch"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 049 - Horizontal Glitch.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 50,
+    "name": "Vertical Glitch",
+    "category": "03_Glitch_Distortion",
+    "duration": 0.55,
+    "intensity": "medium",
+    "notes": "Native VR Digital Glitch: per-band channel offsets and displacement with horizontal wrap. Not a uniform RGB split.",
+    "effects": [
+      "ec.vr.digitalglitch"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 050 - Vertical Glitch.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 51,
+    "name": "VHS Distortion",
+    "category": "03_Glitch_Distortion",
+    "duration": 3,
+    "intensity": "medium",
+    "notes": "VHS-style band jitter, scanlines and softened image; no authentic tape tracking, audio or PAL/NTSC emulation.",
+    "effects": [
+      "ec.vr.digitalglitch",
+      "ec.blur.gaussian"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 051 - VHS Distortion.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 52,
+    "name": "Digital Breakdown",
+    "category": "03_Glitch_Distortion",
+    "duration": 0.9,
+    "intensity": "medium",
+    "notes": "Native VR Digital Glitch: per-band channel offsets and displacement with horizontal wrap. Not a uniform RGB split.",
+    "effects": [
+      "ec.vr.digitalglitch"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 052 - Digital Breakdown.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 53,
+    "name": "Glitch Reveal",
+    "category": "03_Glitch_Distortion",
+    "duration": 0.65,
+    "intensity": "medium",
+    "notes": "Native VR Digital Glitch: per-band channel offsets and displacement with horizontal wrap. Not a uniform RGB split.",
+    "effects": [
+      "ec.vr.digitalglitch",
+      "ec.distort.transform"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 053 - Glitch Reveal.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 54,
+    "name": "Glitch Exit",
+    "category": "03_Glitch_Distortion",
+    "duration": 0.65,
+    "intensity": "medium",
+    "notes": "Native VR Digital Glitch: per-band channel offsets and displacement with horizontal wrap. Not a uniform RGB split.",
+    "effects": [
+      "ec.vr.digitalglitch",
+      "ec.distort.transform"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 054 - Glitch Exit.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 55,
+    "name": "Cyberpunk Glitch",
+    "category": "03_Glitch_Distortion",
+    "duration": 1.1,
+    "intensity": "medium",
+    "notes": "Native VR Digital Glitch: per-band channel offsets and displacement with horizontal wrap. Not a uniform RGB split.",
+    "effects": [
+      "ec.vr.digitalglitch",
+      "ec.stylize.glow"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 055 - Cyberpunk Glitch.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 56,
+    "name": "Smooth Text Fade In",
+    "category": "04_Text_Animations",
+    "duration": 0.75,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 056 - Smooth Text Fade In.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 57,
+    "name": "Smooth Text Fade Out",
+    "category": "04_Text_Animations",
+    "duration": 0.75,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 057 - Smooth Text Fade Out.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 58,
+    "name": "Text Slide Up",
+    "category": "04_Text_Animations",
+    "duration": 0.55,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 058 - Text Slide Up.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 59,
+    "name": "Text Slide Down",
+    "category": "04_Text_Animations",
+    "duration": 0.55,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 059 - Text Slide Down.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 60,
+    "name": "Text Slide Left",
+    "category": "04_Text_Animations",
+    "duration": 0.55,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 060 - Text Slide Left.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 61,
+    "name": "Text Slide Right",
+    "category": "04_Text_Animations",
+    "duration": 0.55,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 061 - Text Slide Right.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 62,
+    "name": "Text Pop In",
+    "category": "04_Text_Animations",
+    "duration": 0.36,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 062 - Text Pop In.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 63,
+    "name": "Text Pop Out",
+    "category": "04_Text_Animations",
+    "duration": 0.32,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 063 - Text Pop Out.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 64,
+    "name": "Text Bounce In",
+    "category": "04_Text_Animations",
+    "duration": 0.72,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 064 - Text Bounce In.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 65,
+    "name": "Text Bounce Out",
+    "category": "04_Text_Animations",
+    "duration": 0.6,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 065 - Text Bounce Out.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 66,
+    "name": "Text Elastic In",
+    "category": "04_Text_Animations",
+    "duration": 0.9,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 066 - Text Elastic In.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 67,
+    "name": "Text Elastic Out",
+    "category": "04_Text_Animations",
+    "duration": 0.72,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 067 - Text Elastic Out.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 68,
+    "name": "Text Scale Reveal",
+    "category": "04_Text_Animations",
+    "duration": 0.68,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 068 - Text Scale Reveal.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 69,
+    "name": "Text Overshoot",
+    "category": "04_Text_Animations",
+    "duration": 0.6,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 069 - Text Overshoot.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 70,
+    "name": "Text Cinematic Reveal",
+    "category": "04_Text_Animations",
+    "duration": 1.15,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform",
+      "ec.blur.gaussian"
+    ],
+    "path": "04_Text_Animations/ECMP 070 - Text Cinematic Reveal.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 71,
+    "name": "Smooth Pop In",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 0.5,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 071 - Smooth Pop In.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 72,
+    "name": "Smooth Pop Out",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 0.52,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 072 - Smooth Pop Out.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 73,
+    "name": "Fast Pop In",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 0.16,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 073 - Fast Pop In.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 74,
+    "name": "Fast Pop Out",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 0.18,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 074 - Fast Pop Out.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 75,
+    "name": "Elastic Pop",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 0.82,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 075 - Elastic Pop.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 76,
+    "name": "Bounce In",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 0.8,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 076 - Bounce In.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 77,
+    "name": "Bounce Out",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 0.66,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 077 - Bounce Out.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 78,
+    "name": "Overshoot Scale",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 0.7,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 078 - Overshoot Scale.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 79,
+    "name": "Smooth Scale Up",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 1.0,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 079 - Smooth Scale Up.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 80,
+    "name": "Smooth Scale Down",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 1.05,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 080 - Smooth Scale Down.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 81,
+    "name": "Spring Scale",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 1.0,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 081 - Spring Scale.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 82,
+    "name": "Rubber Scale",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 0.72,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 082 - Rubber Scale.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 83,
+    "name": "Punch Scale",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 0.4,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 083 - Punch Scale.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 84,
+    "name": "UI Button Pop",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 0.32,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 084 - UI Button Pop.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 85,
+    "name": "Dynamic Bounce",
+    "category": "05_Pop_Bounce_Scale",
+    "duration": 0.9,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform",
+      "ec.distort.transform"
+    ],
+    "path": "05_Pop_Bounce_Scale/ECMP 085 - Dynamic Bounce.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 86,
+    "name": "Smooth Blur In",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 0.9,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.blur.gaussian"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 086 - Smooth Blur In.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 87,
+    "name": "Smooth Blur Out",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 0.95,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.blur.gaussian"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 087 - Smooth Blur Out.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 88,
+    "name": "Fast Blur",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 0.2,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.blur.gaussian"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 088 - Fast Blur.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 89,
+    "name": "Focus Reveal",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 0.7,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.blur.gaussian",
+      "ec.distort.transform"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 089 - Focus Reveal.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 90,
+    "name": "Focus Exit",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 0.75,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.blur.gaussian",
+      "ec.distort.transform"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 090 - Focus Exit.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 91,
+    "name": "Soft Glow",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 1.1,
+    "intensity": "medium",
+    "notes": "Glow depends on source color/brightness and alpha; strongest with bright detail on dark backgrounds.",
+    "effects": [
+      "ec.stylize.glow"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 091 - Soft Glow.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 92,
+    "name": "Intense Glow",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 0.9,
+    "intensity": "medium",
+    "notes": "Glow depends on source color/brightness and alpha; strongest with bright detail on dark backgrounds.",
+    "effects": [
+      "ec.stylize.glow"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 092 - Intense Glow.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 93,
+    "name": "Glow Pulse",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 2.4,
+    "intensity": "medium",
+    "notes": "Glow depends on source color/brightness and alpha; strongest with bright detail on dark backgrounds.",
+    "effects": [
+      "ec.stylize.glow"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 093 - Glow Pulse.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 94,
+    "name": "Neon Glow",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 1.3,
+    "intensity": "medium",
+    "notes": "Glow depends on source color/brightness and alpha; strongest with bright detail on dark backgrounds.",
+    "effects": [
+      "ec.stylize.glow"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 094 - Neon Glow.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 95,
+    "name": "Light Flash",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 0.6,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.color.exposure"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 095 - Light Flash.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 96,
+    "name": "Impact Flash",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 0.28,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.color.exposure"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 096 - Impact Flash.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 97,
+    "name": "Exposure Flash",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 0.5,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.color.exposure"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 097 - Exposure Flash.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 98,
+    "name": "Flicker Light",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 1.2,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.color.exposure"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 098 - Flicker Light.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 99,
+    "name": "Cinematic Bloom",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 1.6,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.stylize.glow",
+      "ec.color.exposure"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 099 - Cinematic Bloom.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 100,
+    "name": "Dreamy Blur",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 2.0,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.blur.gaussian",
+      "ec.stylize.glow"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 100 - Dreamy Blur.ecpreset",
+    "implemented": true
+  }
+]

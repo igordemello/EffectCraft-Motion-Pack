@@ -1,0 +1,155 @@
+{
+  "effectcraftAnimationPreset": 2,
+  "name": "ECMP 088 - Fast Blur",
+  "properties": [],
+  "effects": [
+    {
+      "children": [
+        {
+          "hold_only": false,
+          "match": "blurriness",
+          "name": "Blurriness",
+          "node": "Prop",
+          "shown_dims": 0,
+          "spatial": false,
+          "static_only": false,
+          "three_d_only": false,
+          "two_d_only": false,
+          "ui": {
+            "decimals": 1,
+            "kind": "Slider",
+            "max": 3000.0,
+            "min": 0.0,
+            "slider_max": 50.0,
+            "slider_min": 0.0
+          },
+          "uid": 41,
+          "value": {
+            "t": "Scalar",
+            "v": 0
+          },
+          "keys": [
+            {
+              "time": 0,
+              "value": {
+                "t": "Scalar",
+                "v": 0
+              },
+              "in_interp": "Bezier",
+              "out_interp": "Bezier",
+              "in_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ]
+            },
+            {
+              "time": 16511040000,
+              "value": {
+                "t": "Scalar",
+                "v": 45
+              },
+              "in_interp": "Bezier",
+              "out_interp": "Bezier",
+              "in_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ]
+            },
+            {
+              "time": 50803200000,
+              "value": {
+                "t": "Scalar",
+                "v": 0
+              },
+              "in_interp": "Bezier",
+              "out_interp": "Bezier",
+              "in_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ],
+              "out_ease": [
+                {
+                  "speed": 0.0,
+                  "influence": 0.3333333333333333
+                }
+              ]
+            }
+          ],
+          "expr": {
+            "text": "value*thisComp.width/1920*1",
+            "enabled": true
+          }
+        },
+        {
+          "hold_only": true,
+          "match": "dimensions",
+          "name": "Blur Dimensions",
+          "node": "Prop",
+          "shown_dims": 0,
+          "spatial": false,
+          "static_only": false,
+          "three_d_only": false,
+          "two_d_only": false,
+          "ui": {
+            "kind": "Popup",
+            "options": [
+              "Horizontal and Vertical",
+              "Horizontal",
+              "Vertical"
+            ]
+          },
+          "uid": 42,
+          "value": {
+            "t": "Enum",
+            "v": 0
+          }
+        },
+        {
+          "hold_only": true,
+          "match": "repeatEdge",
+          "name": "Repeat Edge Pixels",
+          "node": "Prop",
+          "shown_dims": 0,
+          "spatial": false,
+          "static_only": false,
+          "three_d_only": false,
+          "two_d_only": false,
+          "ui": {
+            "kind": "Checkbox"
+          },
+          "uid": 43,
+          "value": {
+            "t": "Bool",
+            "v": true
+          }
+        }
+      ],
+      "enabled": true,
+      "kind": {
+        "effect": "ec.blur.gaussian",
+        "kind": "Effect"
+      },
+      "match": "ec.blur.gaussian",
+      "name": "Gaussian Blur",
+      "uid": 40
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Smooth Zoom In",
+    "category": "01_Transitions",
+    "duration": 0.6,
+    "intensity": "medium",
+    "notes": "",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "01_Transitions/ECMP 001 - Smooth Zoom In.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 26,
+    "name": "Subtle Camera Shake",
+    "category": "02_Camera_Shake",
+    "duration": 4.0,
+    "intensity": "subtle",
+    "notes": "Finite additive effect-space camera motion; base layer transform is preserved. Scale footage slightly to cover revealed edges.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "02_Camera_Shake/ECMP 026 - Subtle Camera Shake.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 41,
+    "name": "Digital Glitch",
+    "category": "03_Glitch_Distortion",
+    "duration": 0.6,
+    "intensity": "medium",
+    "notes": "Native VR Digital Glitch: per-band channel offsets and displacement with horizontal wrap. Not a uniform RGB split.",
+    "effects": [
+      "ec.vr.digitalglitch"
+    ],
+    "path": "03_Glitch_Distortion/ECMP 041 - Digital Glitch.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 56,
+    "name": "Smooth Text Fade In",
+    "category": "04_Text_Animations",
+    "duration": 0.75,
+    "intensity": "medium",
+    "notes": "Whole text layer animation. Editable text is preserved; no per-character selectors or glyph staggering.",
+    "effects": [
+      "ec.distort.transform"
+    ],
+    "path": "04_Text_Animations/ECMP 056 - Smooth Text Fade In.ecpreset",
+    "implemented": true
+  },
+  {
+    "id": 91,
+    "name": "Soft Glow",
+    "category": "06_Blur_Flash_Glow",
+    "duration": 1.1,
+    "intensity": "medium",
+    "notes": "Glow depends on source color/brightness and alpha; strongest with bright detail on dark backgrounds.",
+    "effects": [
+      "ec.stylize.glow"
+    ],
+    "path": "06_Blur_Flash_Glow/ECMP 091 - Soft Glow.ecpreset",
+    "implemented": true
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "production_installation_modified": false,
+  "checks": [
+    "98 files installed to isolated target, user file preserved",
+    "repeat install refused without overwriting",
+    "uninstall removed 97 originals and preserved edited preset and unrelated file",
+    "uninstall completed after modified file moved away",
+    "filename collision detected before copying any preset",
+    "incompatible CLI version refused before copying",
+    "unsafe receipt path rejected before removal"
+  ]
+}
