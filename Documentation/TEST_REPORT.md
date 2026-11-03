@@ -1,5 +1,7 @@
 # Relatório de validação
 
+Escopo: receitas `.ecpreset` da versão 1. Para a extensão v2, veja [integração do painel](../Plugin/Tests/integration_report.json) e [teste desktop/GPU](../Plugin/Tests/desktop_report.json).
+
 Data: 2026-11-03. EffectCraft CLI 0.21.0, Windows, motor CPU/headless.
 Commit de referência: `7870b5916ae0749d497d880989683bf2946d6c8b`.
 

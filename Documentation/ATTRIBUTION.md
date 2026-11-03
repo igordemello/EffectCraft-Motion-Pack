@@ -6,3 +6,4 @@
 - Metadados em `Documentation/native_effects.json` e `effect_registry.json`: exportados do EffectCraft 0.21.0 pelo CLI local; ArtCraft Team e EffectCraft contributors, MIT OR Apache-2.0. Origem: https://github.com/storytold/effectcraft/tree/7870b5916ae0749d497d880989683bf2946d6c8b.
 - Referências comerciais citadas no pedido serviram somente como objetivo de usabilidade. Não foram acessados ou copiados presets, imagens, código ou projetos proprietários.
 - O binário do EffectCraft, o repositório upstream e as bibliotecas Python de geração não são distribuídos no ZIP.
+- Extensão v2 em `Plugin/`: código ScriptUI original, MIT. Os PNGs de `Plugin/Frames/` são quadros das renderizações originais; as capturas em `Plugin/Tests/` mostram somente o EffectCraft e a cena de teste original, em perfil isolado. A imagem do painel é uma captura real da interface com recorte das margens, sem mockup. Nenhum código ou recurso visual do Mister Horse foi usado.

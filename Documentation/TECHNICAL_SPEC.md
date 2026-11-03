@@ -1,5 +1,7 @@
 # Especificação técnica — EffectCraft Motion Pack
 
+Este documento descreve o núcleo de receitas da versão 1. O painel nativo e as precomps da versão 2 estão documentados em [Plugin/README.md](../Plugin/README.md), com relatórios próprios de ScriptUI e da interface desktop.
+
 ## Escopo
 
 O pacote contém 100 entradas planejadas no catálogo: 98 presets implementados e dois RGB Split uniformes deliberadamente não gerados. A implementação usa exclusivamente efeitos e propriedades nativos presentes no EffectCraft 0.21.0. O formato é o resultado serializado de `anim.savePreset`, não um formato inferido a partir de presets internos.
@@ -80,4 +82,4 @@ Não foram testados: reprodução visual na interface desktop, GPU, filmagem com
 
 O pack não exige plugins. Separação uniforme de canais em 2D precisa de uma composição com cópias/canais ou de um efeito adicional, e não foi encapsulada como um preset nativo verificado. Não foi criada uma extensão nem modificado o aplicativo. Uma futura implementação deve primeiro verificar o mecanismo oficial de distribuição de efeitos, ou propor a alteração ao upstream com autorização.
 
-Um navegador com subpastas e thumbnails exigiria alteração no scanner/UI: [effects_presets.rs:30–49](https://github.com/storytold/effectcraft/blob/7870b5916ae0749d497d880989683bf2946d6c8b/crates/ui-egui/src/panels/effects_presets.rs#L30-L49). Este pack usa somente o mecanismo plano existente e prévias externas. Outros avanços possíveis são controles únicos de duração/intensidade, transições com montagem automática, texto por caractere e um ensaio completo de render/GPU em vídeos reais.
+Subpastas e thumbnails dentro do navegador padrão Effects & Presets exigiriam alterar seu scanner/UI: [effects_presets.rs:30–49](https://github.com/storytold/effectcraft/blob/7870b5916ae0749d497d880989683bf2946d6c8b/crates/ui-egui/src/panels/effects_presets.rs#L30-L49). A versão 2 cria um navegador separado por ScriptUI, com sequência PNG, duração, intensidade e inserção de precomps, sem modificar esse scanner nem o binário. Transições com montagem automática, texto por caractere e um ensaio completo de render/GPU em vídeos reais continuam fora do escopo.

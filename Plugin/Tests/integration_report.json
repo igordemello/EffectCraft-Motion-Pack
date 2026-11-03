@@ -1,0 +1,706 @@
+{
+  "engine": "0.21.0",
+  "passed": true,
+  "cases": [
+    "Native installer: panel + 1274 frames, absolute asset paths, duplicate install refused",
+    "Narrow 300px panel keeps Apply visible and status below controls; pause holds the preview frame",
+    "Installed ScriptUI source opened as palette in isolated headless session; preview PNG advances through scheduled task",
+    "Search, empty search result, disabled Apply and category filtering",
+    "98 real Apply callbacks at 150% duration and 75% strength; editable precomp layers and valid expressions",
+    "Missing selection, non-finite duration and insufficient timeline room rejected without edits",
+    "Selection precomp also applies at 1920x1080@24 and 1080x1920@60",
+    "Closing panel cancels preview task",
+    "Injected application failure rolls back new precomp and leaves source intact, even with full undo history",
+    "Uninstall preserves modified panel and unrelated scripts; removes only original assets"
+  ],
+  "desktop_ui": false,
+  "results": [
+    {
+      "id": 1,
+      "mode": "overlay_precomp",
+      "duration": 0.9,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 2,
+      "mode": "overlay_precomp",
+      "duration": 0.9,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 3,
+      "mode": "overlay_precomp",
+      "duration": 0.3333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 4,
+      "mode": "overlay_precomp",
+      "duration": 0.3333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 5,
+      "mode": "overlay_precomp",
+      "duration": 0.43333333333333335,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 6,
+      "mode": "overlay_precomp",
+      "duration": 0.43333333333333335,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 7,
+      "mode": "overlay_precomp",
+      "duration": 0.43333333333333335,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 8,
+      "mode": "overlay_precomp",
+      "duration": 0.43333333333333335,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 9,
+      "mode": "overlay_precomp",
+      "duration": 1.0333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 10,
+      "mode": "overlay_precomp",
+      "duration": 1.0333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 11,
+      "mode": "overlay_precomp",
+      "duration": 1.0333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 12,
+      "mode": "overlay_precomp",
+      "duration": 1.0333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 13,
+      "mode": "overlay_precomp",
+      "duration": 0.8333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 14,
+      "mode": "overlay_precomp",
+      "duration": 0.8333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 15,
+      "mode": "overlay_precomp",
+      "duration": 0.43333333333333335,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 16,
+      "mode": "overlay_precomp",
+      "duration": 1.2666666666666666,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 17,
+      "mode": "overlay_precomp",
+      "duration": 0.6333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 18,
+      "mode": "overlay_precomp",
+      "duration": 0.6333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 19,
+      "mode": "overlay_precomp",
+      "duration": 0.6333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 20,
+      "mode": "overlay_precomp",
+      "duration": 0.6333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 21,
+      "mode": "overlay_precomp",
+      "duration": 0.4666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 22,
+      "mode": "overlay_precomp",
+      "duration": 0.36666666666666664,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 23,
+      "mode": "overlay_precomp",
+      "duration": 0.5666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 24,
+      "mode": "overlay_precomp",
+      "duration": 1.2,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 25,
+      "mode": "overlay_precomp",
+      "duration": 1.8,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 26,
+      "mode": "overlay_precomp",
+      "duration": 6.0,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 27,
+      "mode": "overlay_precomp",
+      "duration": 6.0,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 28,
+      "mode": "overlay_precomp",
+      "duration": 6.0,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 29,
+      "mode": "overlay_precomp",
+      "duration": 0.9666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 30,
+      "mode": "overlay_precomp",
+      "duration": 1.6666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 31,
+      "mode": "overlay_precomp",
+      "duration": 6.0,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 32,
+      "mode": "overlay_precomp",
+      "duration": 6.0,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 33,
+      "mode": "overlay_precomp",
+      "duration": 6.0,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 34,
+      "mode": "overlay_precomp",
+      "duration": 6.0,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 35,
+      "mode": "overlay_precomp",
+      "duration": 6.0,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 36,
+      "mode": "overlay_precomp",
+      "duration": 6.0,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 37,
+      "mode": "overlay_precomp",
+      "duration": 6.0,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 38,
+      "mode": "overlay_precomp",
+      "duration": 0.6,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 39,
+      "mode": "overlay_precomp",
+      "duration": 1.2666666666666666,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 40,
+      "mode": "overlay_precomp",
+      "duration": 0.7333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 41,
+      "mode": "overlay_precomp",
+      "duration": 0.9,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 44,
+      "mode": "overlay_precomp",
+      "duration": 1.0333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 45,
+      "mode": "overlay_precomp",
+      "duration": 3.0,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 46,
+      "mode": "overlay_precomp",
+      "duration": 2.1,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 47,
+      "mode": "overlay_precomp",
+      "duration": 0.6666666666666666,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 48,
+      "mode": "overlay_precomp",
+      "duration": 1.2,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 49,
+      "mode": "overlay_precomp",
+      "duration": 0.7333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 50,
+      "mode": "overlay_precomp",
+      "duration": 0.8333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 51,
+      "mode": "overlay_precomp",
+      "duration": 4.5,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 52,
+      "mode": "overlay_precomp",
+      "duration": 1.3333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 53,
+      "mode": "overlay_precomp",
+      "duration": 0.9666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 54,
+      "mode": "overlay_precomp",
+      "duration": 0.9666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 55,
+      "mode": "overlay_precomp",
+      "duration": 1.6666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 56,
+      "mode": "selection_precomp",
+      "duration": 1.1333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 57,
+      "mode": "selection_precomp",
+      "duration": 1.1333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 58,
+      "mode": "selection_precomp",
+      "duration": 0.8333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 59,
+      "mode": "selection_precomp",
+      "duration": 0.8333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 60,
+      "mode": "selection_precomp",
+      "duration": 0.8333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 61,
+      "mode": "selection_precomp",
+      "duration": 0.8333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 62,
+      "mode": "selection_precomp",
+      "duration": 0.5333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 63,
+      "mode": "selection_precomp",
+      "duration": 0.4666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 64,
+      "mode": "selection_precomp",
+      "duration": 1.0666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 65,
+      "mode": "selection_precomp",
+      "duration": 0.9,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 66,
+      "mode": "selection_precomp",
+      "duration": 1.3333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 67,
+      "mode": "selection_precomp",
+      "duration": 1.0666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 68,
+      "mode": "selection_precomp",
+      "duration": 1.0333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 69,
+      "mode": "selection_precomp",
+      "duration": 0.9,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 70,
+      "mode": "selection_precomp",
+      "duration": 1.7333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 71,
+      "mode": "selection_precomp",
+      "duration": 0.7333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 72,
+      "mode": "selection_precomp",
+      "duration": 0.7666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 73,
+      "mode": "selection_precomp",
+      "duration": 0.23333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 74,
+      "mode": "selection_precomp",
+      "duration": 0.26666666666666666,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 75,
+      "mode": "selection_precomp",
+      "duration": 1.2333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 76,
+      "mode": "selection_precomp",
+      "duration": 1.2,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 77,
+      "mode": "selection_precomp",
+      "duration": 1.0,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 78,
+      "mode": "selection_precomp",
+      "duration": 1.0333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 79,
+      "mode": "selection_precomp",
+      "duration": 1.5,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 80,
+      "mode": "selection_precomp",
+      "duration": 1.5666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 81,
+      "mode": "selection_precomp",
+      "duration": 1.5,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 82,
+      "mode": "selection_precomp",
+      "duration": 1.0666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 83,
+      "mode": "selection_precomp",
+      "duration": 0.6,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 84,
+      "mode": "selection_precomp",
+      "duration": 0.4666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 85,
+      "mode": "selection_precomp",
+      "duration": 1.3333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 86,
+      "mode": "overlay_precomp",
+      "duration": 1.3333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 87,
+      "mode": "overlay_precomp",
+      "duration": 1.4333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 88,
+      "mode": "overlay_precomp",
+      "duration": 0.3,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 89,
+      "mode": "overlay_precomp",
+      "duration": 1.0333333333333334,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 90,
+      "mode": "overlay_precomp",
+      "duration": 1.1333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 91,
+      "mode": "overlay_precomp",
+      "duration": 1.6666666666666667,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 92,
+      "mode": "overlay_precomp",
+      "duration": 1.3333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 93,
+      "mode": "overlay_precomp",
+      "duration": 3.6,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 94,
+      "mode": "overlay_precomp",
+      "duration": 1.9666666666666666,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 95,
+      "mode": "overlay_precomp",
+      "duration": 0.9,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 96,
+      "mode": "overlay_precomp",
+      "duration": 0.43333333333333335,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 97,
+      "mode": "overlay_precomp",
+      "duration": 0.7333333333333333,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 98,
+      "mode": "overlay_precomp",
+      "duration": 1.8,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 99,
+      "mode": "overlay_precomp",
+      "duration": 2.4,
+      "strength": 75,
+      "passed": true
+    },
+    {
+      "id": 100,
+      "mode": "overlay_precomp",
+      "duration": 3.0,
+      "strength": 75,
+      "passed": true
+    }
+  ],
+  "source_sha256": "32b162ae51395fac9d922bc1cb4651e3d63d7f5de60a1a05134d0425efde164d"
+}

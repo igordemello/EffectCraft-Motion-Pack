@@ -24,9 +24,9 @@ def find_cli():
 
 
 class Engine:
-    def __init__(self):
+    def __init__(self, config_dir=None):
         env = dict(os.environ)
-        env['EFFECTCRAFT_CONFIG_DIR'] = str(ROOT / 'Tests/.runtime')
+        env['EFFECTCRAFT_CONFIG_DIR'] = str(config_dir or ROOT / 'Tests/.runtime')
         Path(env['EFFECTCRAFT_CONFIG_DIR']).mkdir(parents=True, exist_ok=True)
         self.process = subprocess.Popen([find_cli(), 'mcp'], stdin=subprocess.PIPE,
                                         stdout=subprocess.PIPE, stderr=subprocess.DEVNULL,
@@ -52,8 +52,8 @@ class Engine:
         texts = [c['text'] for c in result['content'] if c['type'] == 'text']
         return json.loads(texts[0]) if texts else result
 
-    def cmd(self, command, **params):
-        return self.tool('execute_command', {'command': command, 'params': params})
+    def cmd(self, command_id, **params):
+        return self.tool('execute_command', {'command': command_id, 'params': params})
 
     def close(self):
         self.process.stdin.close()

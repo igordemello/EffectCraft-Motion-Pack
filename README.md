@@ -1,162 +1,131 @@
 <div align="center">
 
-# EffectCraft Motion Pack
+# IGPACK Motion Browser
 
-**Movimento, impacto e acabamento em 98 presets nativos.**
+**Escolha, veja o preview e coloque o efeito na timeline.**
 
-`EffectCraft 0.21.0` · `Windows` · `Sem plugins externos` · `MIT`
+Painel nativo para **EffectCraft 0.21.0 · Windows**
 
-[Baixar o pack](https://github.com/igordemello/EffectCraft-Motion-Pack/releases/latest/download/EffectCraft-Motion-Pack-0.21.0.zip) · [Catálogo completo](Documentation/CATALOG.md) · [Relatório de testes](Documentation/TEST_REPORT.md) · [Especificação técnica](Documentation/TECHNICAL_SPEC.md)
+`98 efeitos` · `Preview animado` · `Precomps editáveis` · `Duração e intensidade` · `MIT`
 
-![Elastic Zoom — renderização pelo motor EffectCraft](Previews/024%20-%20Elastic%20Zoom.gif)
+[Baixar versão 2](https://github.com/igordemello/EffectCraft-Motion-Pack/releases/latest) · [Como funciona](Plugin/README.md) · [Catálogo](Documentation/CATALOG.md) · [Testes do painel](Plugin/Tests/integration_report.json)
 
-*Prévia real do motor CPU do EffectCraft. Os GIFs usam amostras de 320×180 e temporização aproximada.*
+![Captura real do painel nativo no EffectCraft](Plugin/Tests/browser.png)
+
+*Captura da extensão dentro do EffectCraft. Sem navegador, servidor ou Python para usar.*
 
 </div>
 
-## Instale em três passos
+## Instalação
 
-1. **[Baixe o ZIP da release](https://github.com/igordemello/EffectCraft-Motion-Pack/releases/latest/download/EffectCraft-Motion-Pack-0.21.0.zip)** e extraia o arquivo inteiro para uma pasta gravável. Não execute os scripts de dentro do ZIP.
-2. **Abra `Install.bat` com dois cliques.** O instalador procura o CLI instalado, confirma a versão **0.21.0** e copia os presets. Não precisa executar como administrador.
-3. No EffectCraft, abra **Effects & Presets**, habilite **Animation Presets**, atualize a lista e procure por **`ECMP`**. Se necessário, reinicie o aplicativo.
+1. **[Baixe o ZIP `IGPACK-Motion-Browser-2.0.0-EffectCraft-0.21.0.zip`](https://github.com/igordemello/EffectCraft-Motion-Pack/releases/latest)** e extraia tudo para uma pasta gravável.
+2. **Abra `Install.bat` com dois cliques.** O instalador confirma o CLI 0.21.0 e instala o painel com suas prévias, sem sobrescrever arquivos existentes.
+3. No EffectCraft, abra **Janela / Window → IGPACK → Motion Browser**. Reinicie o aplicativo se o menu ainda não aparecer.
 
-**Para usar:** selecione uma camada → posicione o cursor de tempo no início da animação → aplique o preset. Ajuste os efeitos e quadros-chave em **Effect Controls**. Para desfazer uma aplicação, use **Undo**.
+A versão 2 abre uma biblioteca nativa dentro do editor. Os presets `.ecpreset` da primeira versão continuam no repositório como fontes e alternativa de uso.
 
-> **Requisito:** EffectCraft **0.21.0 para Windows**, com `effectcraft-cli.exe` instalado. Python e Pillow são necessários apenas para gerar ou testar o pack; não são necessários para instalar e usar.
+> Se você já instalou o pack v1, pode mantê-lo. O painel v2 usa uma pasta própria e não depende daquela instalação.
 
-## O que vem no pack
+## Seu fluxo de edição
 
-| Categoria | Presets | Exemplos |
-|---|---:|---|
-| Transitions | 25 | Whip Pan, Elastic Zoom, Cinematic Push |
-| Camera Shake & Motion | 15 | Impact Shake, Camera Recoil, Handheld |
-| Glitch & Distortion | 13 | Digital Glitch, Signal Distortion, Cyberpunk Glitch |
-| Text Animations | 15 | Text Bounce In, Text Overshoot, Cinematic Reveal |
-| Pop, Bounce & Scale | 15 | Elastic Pop, Rubber Scale, UI Button Pop |
-| Blur, Flash & Glow | 15 | Focus Reveal, Glow Pulse, Cinematic Bloom |
-| **Total** | **98** | **100 efeitos planejados, com status individual no catálogo** |
+**Abra uma composição → escolha o efeito → veja o preview → ajuste duração/intensidade → clique “Adicionar à timeline”.**
 
-Os presets adicionam efeitos nativos e preservam as propriedades de transformação base da camada. Texto continua editável. O pacote inclui arquivos `.ecpreset`, receitas de geração, instalador, desinstalador, relatórios e **98 GIFs**.
+| Modo | O que aparece na timeline | Como editar |
+|---|---|---|
+| **Sobrepor à imagem** | Uma precomp de ajuste por cima da imagem, com entrada e saída na duração escolhida | Mova, duplique ou remova o clipe; ajuste os efeitos na camada externa |
+| **Animar seleção** | Uma nova precomp com suas camadas selecionadas e a animação aplicada | Abra a precomp para editar texto, imagens e elementos originais |
 
-### Veja antes de aplicar
+O efeito começa na posição do cursor. A duração se ajusta aos frames da composição; a intensidade aceita **0–200%**. Uma aplicação vira um único **Undo**. Se a aplicação falhar, o painel desfaz as alterações parciais.
 
-| Glitch | Texto | Pop & Bounce |
-|:---:|:---:|:---:|
-| ![Digital Glitch](Previews/041%20-%20Digital%20Glitch.gif) | ![Text Bounce In](Previews/064%20-%20Text%20Bounce%20In.gif) | ![Dynamic Bounce](Previews/085%20-%20Dynamic%20Bounce.gif) |
+O preview mostra a receita original. Os ajustes de duração e intensidade são aplicados ao inserir o efeito; o painel não renderiza uma nova prévia personalizada.
 
-Para navegar por todos os efeitos com busca e filtro por categoria, abra **`Previews/index.html` no navegador depois de extrair o ZIP**. O GitHub exibe os GIFs; o catálogo HTML funciona localmente.
+### Exemplos
 
-## Exemplos de uso
+- **Glitch, flash ou shake sobre o vídeo:** use **Sobrepor à imagem**, clique para adicionar e posicione o clipe de efeito sobre o trecho desejado.
+- **Título com bounce:** selecione seu texto, escolha **Text Bounce In** e use **Animar seleção**. O texto permanece editável dentro da nova precomp.
+- **Logo ou grupo de elementos:** selecione as camadas, escolha um pop/scale e use **Animar seleção**. O pivô é calculado a partir dos limites do conteúdo.
 
-- **Título:** crie uma camada de texto, posicione o cursor e aplique `Text Bounce In`.
-- **Corte entre vídeos:** sobreponha as tomadas por aproximadamente 0,6 s e aplique `Smooth Zoom In` à camada que entra.
-- **Impacto:** aplique `Impact Shake` no frame do impacto. Aumente um pouco a escala da filmagem se o movimento revelar suas bordas.
+Uma precomp transparente, sozinha, não modifica a imagem abaixo. Por isso o modo de sobreposição usa a propriedade nativa de **camada de ajuste** na precomp externa. A precomp interna contém somente a cobertura; os efeitos ficam na camada da timeline. Ao reutilizar, duplique esse clipe na timeline em vez de arrastar a composição de cobertura do painel Projeto.
 
-As transições atuam em uma camada. Faça a sobreposição e o alinhamento dos clipes na montagem. Flashes podem precisar ser aplicados às duas camadas para cobrir o corte.
+## Biblioteca
 
-## Onde os presets são instalados
+| Categoria | Quantidade |
+|---|---:|
+| Transitions | 25 |
+| Camera Shake & Motion | 15 |
+| Glitch & Distortion | 13 |
+| Text Animations | 15 |
+| Pop, Bounce & Scale | 15 |
+| Blur, Flash & Glow | 15 |
+| **Total** | **98** |
 
-O destino segue exatamente a lógica do EffectCraft 0.21.0:
+O [catálogo dos 100 efeitos planejados](Documentation/CATALOG.md) identifica também os dois RGB Split uniformes que continuam pendentes. Nenhum arquivo vazio foi criado para completar a contagem.
 
-1. Se `EC_PRESETS_DIR` estiver definida, usa esse caminho.
-2. Caso contrário, usa `HOME`; se ausente, usa `USERPROFILE`, acrescentando `Documents\EffectCraft\Presets`.
-
-Em uma instalação comum do Windows:
-
-```text
-C:\Users\SEU_USUARIO\Documents\EffectCraft\Presets
-```
-
-**Atenção ao OneDrive:** o aplicativo usa o nome literal `Documents`. Ele não consulta automaticamente a pasta Documentos redirecionada pelo Windows. O instalador mostra o caminho exato utilizado.
-
-O scanner lê apenas uma pasta, sem subpastas. Por isso, o instalador coloca os arquivos juntos, com categoria e número no nome. Ele recusa sobrescrever qualquer arquivo existente.
-
-<details>
-<summary><strong>Instalação personalizada ou manual</strong></summary>
-
-Se o CLI estiver em outro local, abra um terminal na pasta extraída e execute:
-
-```powershell
-.\Install.bat -CliPath "D:\Apps\EffectCraft\effectcraft-cli.exe"
-```
-
-Para usar outra pasta de presets:
-
-```powershell
-.\Install.bat -PresetsDir "D:\Presets"
-```
-
-Configure `EC_PRESETS_DIR` com o mesmo caminho no ambiente em que o EffectCraft é iniciado. Informe o mesmo destino na desinstalação.
-
-Para aplicar sem instalar: selecione a camada e o tempo de início, abra **Animation → Apply Animation Preset** e escolha um `.ecpreset` de qualquer categoria do pack.
-
-Para copiar manualmente: coloque os `.ecpreset` diretamente na pasta de presets, sem subpastas e sem substituir arquivos existentes. Essa cópia não cria manifesto de instalação; remova depois somente os arquivos `ECMP 001 - ...` a `ECMP 100 - ...` que você copiou.
-
-</details>
-
-## Desinstalação
-
-Execute **`Uninstall.bat`** na pasta do pack. O script usa o manifesto e os hashes para remover somente os arquivos instalados pelo pacote.
-
-Arquivos que você editou são preservados. Nesse caso, o manifesto fica no local: mova os arquivos personalizados para outra pasta e execute a desinstalação novamente. A pasta de presets e os arquivos de terceiros permanecem.
-
-## O que foi validado
+## Testado no aplicativo
 
 | Verificação | Resultado |
 |---|---|
-| Estrutura, propriedades, tipos e conteúdo não vazio | **98/98 aprovados** |
-| Integração com leitura dos arquivos pelo CLI 0.21.0 | **588 cenários aprovados** |
-| Cenários de integração | 1920×1080 e 1080×1920, cada um a 24, 30 e 60 FPS |
-| Renderizações CPU para as prévias | **1.274 quadros**, 13 amostras por preset |
-| Instalador e desinstalador em pasta temporária | **7 verificações aprovadas** |
-| Reprodução na interface desktop / GPU | **Não testada** |
+| Aplicação pelo botão real de ScriptUI | **98 receitas aprovadas**, com duração de 150% e intensidade de 75% |
+| Busca, categorias, timer e pausa/fechamento | Controles e avanço dos quadros verificados |
+| Composição de overlay | Imagens antes, durante e depois confirmam que o efeito atua somente no intervalo |
+| Movimento do clipe | Parâmetros e expressões acompanham a nova posição na timeline |
+| Interface desktop real | Painel instalado e acoplado, preview animado, overlay, precomp de texto e Undo verificados |
+| GPU da instância desktop | **AMD Radeon RX 7600, Vulkan**; três receitas amostradas |
+| Instalação e remoção | Perfil isolado; colisões recusadas e arquivos editados preservados |
 
-A integração amostrou parâmetros e expressões. Não houve renderização de todos os frames em cada resolução/FPS, teste em filmagem comercial ou certificação de aparência em qualquer material. A instalação real e a biblioteca de presets do usuário não foram alteradas durante os testes.
+Os [testes do painel](Plugin/Tests/integration_report.json) e o [relatório desktop](Plugin/Tests/desktop_report.json) registram o escopo. A validação original das receitas, com **588 cenários** horizontal/vertical a 24/30/60 FPS, está no [relatório do pack v1](Documentation/TEST_REPORT.md).
 
-[Leia o relatório completo](Documentation/TEST_REPORT.md), incluindo os limites da revisão visual de quadros renderizados.
+Não houve teste de toda a biblioteca em GPU, exportação de todos os frames ou certificação com filmagem comercial. Os testes usaram uma configuração isolada; sua instalação normal não foi alterada.
 
-## Ajustes e limites conhecidos
+## Instalação personalizada e remoção
 
-- **98 de 100 planejados:** `RGB Split` e `RGB Split Heavy` ficaram pendentes. Não foi encontrada uma operação nativa validada para deslocamento uniforme de canais 2D. O [catálogo](Documentation/CATALOG.md) registra os dois sem gerar arquivos vazios.
-- **Texto:** anima a camada inteira, sem atraso por caractere ou seletores de glifos. O pivô acompanha os limites do texto.
-- **Shakes:** têm duração finita. Para retimar, ajuste a chave final e a duração `d` na expressão. Amplitude e frequência também são números na expressão.
-- **Slides:** as curvas de posição usam frações da composição. `0.1` corresponde a 10% da largura/altura, convertido pela expressão, embora o controle nativo seja um Point.
-- **Glitch e aberração:** usam efeitos VR nativos, com deslocamento por faixas ou projeção esférica e wrap nas bordas. `VHS Distortion` é uma aproximação visual; `Pixel Distortion` desloca blocos/faixas e não aplica mosaico.
-- **Blur e glow:** o raio acompanha a largura da composição. A aparência pode variar entre horizontal e vertical; glow depende de detalhes claros no conteúdo.
-- **Pilha de efeitos:** efeitos anteriores continuam antes dos novos. Reaplicar um preset adiciona outra pilha. Use uma precomp para tratar vários elementos como uma imagem.
-- **Camadas:** use em conteúdo 2D. Comportamento em câmeras, luzes, camadas 3D e camadas de ajuste não foi validado.
+O instalador usa `EFFECTCRAFT_CONFIG_DIR`, quando definida. Caso contrário, detecta a instalação portátil ou usa **`%APPDATA%\EffectCraft`**. O painel fica em `Scripts\ScriptUI Panels\IGPACK\Motion Browser.jsx`; as prévias ficam em `IGPACK Motion Browser\Frames`.
 
-## Resolução de problemas
+```powershell
+# CLI instalado em outro local
+.\Install.bat -CliPath "D:\Apps\EffectCraft\effectcraft-cli.exe"
 
-| Problema | O que conferir |
-|---|---|
-| O pack não aparece | Caminho mostrado pelo instalador, `EC_PRESETS_DIR`, opção **Animation Presets** e atualização da lista. Reinicie o aplicativo se necessário. |
-| CLI não encontrado | Confirme a instalação de `effectcraft-cli.exe` ou informe `-CliPath`. |
-| Versão recusada | O instalador exige **0.21.0**; outras versões não foram validadas. |
-| Arquivo existente ou manifesto detectado | Use `Uninstall.bat` na instalação anterior ou aplique o preset manualmente. Preserve seus arquivos personalizados. |
-| Glow quase invisível | Teste em detalhes claros sobre fundo escuro e ajuste threshold/intensidade. |
-| Bordas aparecem durante shake/slide | Aumente a escala do conteúdo ou trabalhe em uma precomp com margem. |
+# Configuração personalizada — use a mesma pasta do aplicativo
+.\Install.bat -ConfigDir "D:\EffectCraftData"
+```
 
-## Fontes e testes
+Para remover o painel, execute **`Uninstall.bat`**. Arquivos personalizados são preservados; se houver alterações, mova esses arquivos para outro local e execute novamente para concluir.
 
-As receitas e os scripts estão em [`Tests/`](Tests/). As instâncias exportadas pelo motor estão em [`Documentation/native_effects.json`](Documentation/native_effects.json), e os detalhes do formato em [`TECHNICAL_SPEC.md`](Documentation/TECHNICAL_SPEC.md).
+**Uso legado:** `Install-Presets.bat` e `Uninstall-Presets.bat` gerenciam somente os arquivos `.ecpreset` da primeira versão. Não são necessários para usar o painel.
 
-Para reproduzir a geração, use Python 3.10+, Pillow e o CLI 0.21.0. Defina `EFFECTCRAFT_CLI` se o executável estiver fora dos locais padrão.
+## Limites e dicas
+
+- O navegador aplica com um clique. Não há drag-and-drop da lista: depois de adicionar, mova o clipe na timeline.
+- Para ter mais espaço, aumente o painel ou desacople sua aba pelos controles nativos do editor. Em docks estreitos, o layout muda para coluna.
+- Sobreposições afetam a composição abaixo, dentro do intervalo do clipe. O painel não monta automaticamente duas tomadas nem reposiciona cortes.
+- A duração precisa caber depois do cursor. Aumentar o tamanho do clipe manualmente depois de inserido não redistribui suas chaves automaticamente.
+- Precomps de seleção aceitam camadas 2D desbloqueadas. Inclua também as camadas ligadas por parenting/track matte; dependências parciais são recusadas para preservar o projeto.
+- A precomposição segue as regras nativas do editor: confira expressões que referenciam camadas fora da seleção, pois o contexto de `thisComp` muda.
+- Shakes e transformações podem revelar bordas. Aumente a escala da filmagem quando necessário.
+- Texto anima como camada inteira. VHS é uma aproximação visual; Pixel Distortion usa blocos/faixas. RGB Split uniforme permanece pendente.
+- A intensidade preserva os fades de opacidade; `0%` não elimina necessariamente uma entrada/saída por fade.
+- As prévias usam 13 PNGs por receita; o timer do ScriptUI tem limite nativo de atualização. Elas não substituem a reprodução final do projeto.
+
+## Fontes e desenvolvimento
+
+- [`Plugin/Browser.template.jsx`](Plugin/Browser.template.jsx): interface, composição, retiming e aplicação.
+- [`Tests/build_plugin.py`](Tests/build_plugin.py): gera o JSX distribuível, as prévias PNG e o manifesto.
+- [`Scripts/Manage-Plugin.ps1`](Scripts/Manage-Plugin.ps1): instalação com verificação de versão e hashes.
+- [`Plugin/README.md`](Plugin/README.md): arquitetura e instruções detalhadas.
+
+Para reconstruir e testar, use Python 3.10+, Pillow e o CLI 0.21.0:
 
 ```powershell
 python -m pip install Pillow
-python Tests/build.py --poc
-python Tests/validate.py --poc
-python Tests/build.py
-python Tests/validate.py
-python Tests/test_installer.py
-python Tests/package.py
+python Tests/build_plugin.py
+python Tests/test_plugin.py
+python Tests/package_plugin.py
 ```
 
-Esses comandos regravam os arquivos e as prévias do próprio pack. Use uma cópia se tiver personalizado o conteúdo. Os testes do instalador usam uma pasta temporária; o empacotador exclui `.git`, caches e dados de execução.
+O teste desktop tem instruções próprias em [`Tests/test_plugin_desktop.py`](Tests/test_plugin_desktop.py) e exige uma instância isolada do aplicativo. A geração e os testes regravam os próprios artefatos; use uma cópia se os personalizou.
 
-## Licença e créditos
+## Licença
 
-Receitas e scripts originais sob [MIT](LICENSE.txt). Os metadados nativos derivam do [EffectCraft](https://github.com/storytold/effectcraft), versão 0.21.0, commit `7870b5916ae0749d497d880989683bf2946d6c8b`. Licenças e avisos do upstream estão em [`Documentation/`](Documentation/).
+Código e receitas originais sob [MIT](LICENSE.txt). O painel usa APIs públicas de scripting e efeitos nativos do [EffectCraft 0.21.0](https://github.com/storytold/effectcraft), sem modificar o executável nem copiar arquivos de bibliotecas proprietárias. Veja [atribuição e licenças](Documentation/ATTRIBUTION.md).
 
-Veja a [atribuição dos arquivos](Documentation/ATTRIBUTION.md). Nenhum preset proprietário foi copiado. Este é um pacote independente, sem vínculo ou endosso do projeto EffectCraft.
+Projeto independente, sem vínculo ou endosso do EffectCraft ou do Mister Horse.

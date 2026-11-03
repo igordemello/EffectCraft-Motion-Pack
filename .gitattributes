@@ -1,5 +1,6 @@
 * text=auto
 *.ecpreset -text
+*.jsx -text
 *.json -text
 *.png binary
 *.gif binary
